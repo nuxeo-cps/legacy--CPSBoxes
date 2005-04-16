@@ -18,6 +18,9 @@
 """
   ImageBox
 """
+
+import os
+
 from Globals import InitializeClass
 from AccessControl import ClassSecurityInfo
 
