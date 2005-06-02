@@ -6,7 +6,7 @@ New features:
 -
 Bug fixes:
 ~~~~~~~~~~
-- ImageBox: was not possible to load images from disk when creating box.
+-
 New internal features:
 ~~~~~~~~~~~~~~~~~~~~~~
-- Moved boxes skins from CPSDefault in here
+-

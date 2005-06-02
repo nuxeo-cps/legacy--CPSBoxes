@@ -1,4 +1,20 @@
 *******************************************
+** CPSBoxes V0.2.0 [R1 build 2005/06/02-09:29 by fguillaume]
+** SVN URL: https://svn.nuxeo.org/pub/CPSBoxes/trunk Revision: 22058
+Requires:
+~~~~~~~~~
+-
+New features:
+~~~~~~~~~~~~~
+-
+Bug fixes:
+~~~~~~~~~~
+- ImageBox: was not possible to load images from disk when creating box.
+New internal features:
+~~~~~~~~~~~~~~~~~~~~~~
+- Moved boxes skins from CPSDefault in here
+
+*******************************************
 ** CPSBoxes V0.1.0 [R1 build 2005/04/13-17:19 by ben]
 
 Creation
