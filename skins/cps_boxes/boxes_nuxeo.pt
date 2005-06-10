@@ -134,9 +134,9 @@
 
 <!-- ============================================================ -->
 <metal:block define-macro="basebox_l10n_select"
-   tal:define="map here/Localizer/get_languages_map;
+   tal:define="map here/translation_service/getLanguagesMap;
                languages python: [lang['id'] for lang in map];
-               selected_language here/Localizer/get_selected_language;
+               selected_language here/translation_service/getSelectedLanguage;
                l10n_translated nothing;"
    tal:condition="python:len(map) > 1">
 <form id="idioma" method="post"
@@ -261,7 +261,7 @@
               </a>
             </th>
           </tr>
-          <tr tal:define="weekdays python:here.portal_calendar.getDayList(here.Localizer)">
+          <tr tal:define="weekdays python:here.portal_calendar.getDayList(here.translation_service)">
             <tal:weekday tal:repeat="weekday weekdays">
               <td class="weekdays" tal:content="python:cpsmcat('calendar_day_%s' % weekday)">Su</td>
             </tal:weekday>

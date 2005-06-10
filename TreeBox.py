@@ -231,7 +231,7 @@ class TreeBox(BaseBox):
                 tree = items
 
         # l10n
-        locale = self.Localizer.get_selected_language()
+        locale = self.translation_service.getSelectedLanguage()
         for item in tree:
             if item.has_key('l10n_titles') and \
                    item['l10n_titles'].has_key(locale):
