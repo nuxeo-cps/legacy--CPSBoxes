@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<types-tool>
+ <type id="Action Box" filename="types/Action_Box.xml"/>
+ <type id="Base Box" filename="types/Base_Box.xml"/>
+ <type id="Content Box" filename="types/Content_Box.xml"/>
+ <type id="Doc Render Box"
+       filename="types/Doc_Render_Box.xml"/>
+ <type id="Event Calendar Box"
+       filename="types/Event_Calendar_Box.xml"/>
+ <type id="Flash Box" filename="types/Flash_Box.xml"/>
+ <type id="Image Box" filename="types/Image_Box.xml"/>
+ <type id="InternalLinks Box"
+       filename="types/InternalLinks_Box.xml"/>
+ <type id="Text Box" filename="types/Text_Box.xml"/>
+ <type id="Tree Box" filename="types/Tree_Box.xml"/>
+</types-tool>
