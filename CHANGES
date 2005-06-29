@@ -6,7 +6,8 @@ New features:
 -
 Bug fixes:
 ~~~~~~~~~~
--
+- last_child variable was not always defined in the treebox template in Nuxeo
+  boxes.
 New internal features:
 ~~~~~~~~~~~~~~~~~~~~~~
 -
