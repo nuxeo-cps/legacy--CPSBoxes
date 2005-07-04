@@ -23,7 +23,7 @@
   tal:attributes="value box_url" />
 <input type="hidden" name="box_category" value=""
   tal:attributes="value box_category" />
-<table border="0" summary="box properties layout">
+<table summary="box properties layout">
   <tr valign="top">
     <th align="right">
       <label for="box_title" i18n:translate="label_title">Title</label>
@@ -134,7 +134,7 @@
   </em>
   </tal:block>
   <hr />
-  <table border="0" summary="Box additional properties layout">
+  <table summary="Box additional properties layout">
   <metal:block define-slot="additional_fields">
   </metal:block>
   </table>
