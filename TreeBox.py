@@ -133,6 +133,9 @@ class TreeBox(BaseBox):
 
         root_tree = root_path[0]
 
+        if root_tree.startswith('portal_'):
+            return []
+
         # If there no tree for root_tree, it means that the box is neither in
         # the workspaces and neither in the sections, thus we conclude that the
         # tree box is a the root of the portal.
