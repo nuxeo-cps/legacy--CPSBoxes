@@ -78,6 +78,8 @@ class BoxesTool(UniqueObject, PortalFolder):
             bmf = context
 
         # get boxes from root to current path
+        # XXX This is badly reinventing traversal.
+        # XXX Use aq_parent(aq_inner(ob)) the other way round instead.
         portal_url = getToolByName(self, 'portal_url')
         rpath = portal_url.getRelativeContentPath(bmf)
         obj = portal_url.getPortalObject()
@@ -87,7 +89,9 @@ class BoxesTool(UniqueObject, PortalFolder):
         home = getToolByName(self, 'portal_membership').getHomeFolder()
         for elem in ('',) + rpath:
             if elem:
-                obj = getattr(obj, elem)
+                obj = getattr(obj, elem, None)
+                if obj is None:
+                    break
             if obj == home:
                 home_boxes_loaded = 1
             f_boxes, f_settings = self._getFolderBoxesAndSettings(obj)
