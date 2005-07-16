@@ -35,7 +35,7 @@
     </td>
   </tr>
   <tr>
-    <th colspan="5" align="right" 
+    <th colspan="5" align="right"
         i18n:translate="label_children_only">Subfolders only</th>
     <td>
       <input type="checkbox" name="children_only" checked=""

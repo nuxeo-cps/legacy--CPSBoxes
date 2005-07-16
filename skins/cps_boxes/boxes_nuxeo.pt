@@ -473,34 +473,30 @@
                        depth python:root['depth']+1;
                        items python:items[1:];
                        nb_item python:len(items);
-                       global treenb_row python:nb_item/2+2;
-                       ttool here/portal_types;">
-    <table width="100%" summary="treebox layout"
-           tal:define="disp_icons python:getattr(box['box'],'display_icons',0)">
-      <tr><td valign="top" width="50%">
+                       ttool here/portal_types;
+                       disp_icons python:getattr(box['box'],'display_icons',0);
+                       ">
+      <div class="subfolderItem">
       <tal:block repeat="item items">
         <tal:block condition="python:item['depth'] == depth">
           <tal:block condition="not:python:ttool[getattr(here,
                      item['id']).portal_type].cps_display_as_document_in_listing">
-            <tal:block condition="not:repeat/item/start"><br /><br /></tal:block>
-            <tal:block condition="python:repeat['item'].number() >= treenb_row">
-              <tal:block define="global treenb_row python:nb_item + 1"
-                replace="structure string:&lt;/td>&lt;td width='50%' valign='top'>"/>
+            <tal:block condition="not:repeat/item/start"></tal:block>
+            <tal:block condition="python:repeat['item'].number() > 1">
+              <tal:block replace="structure string:&lt;/div>&lt;div class='subfolderItem'>"/>
             </tal:block>
             <a href="." tal:attributes="href string:${base_url}${item/rpath}/" >
-            <strong>
               <img tal:condition="disp_icons"
                    tal:replace="structure
                     python:here.getImgTag(here.portal_types[item['portal_type']].getIcon(),
                                           base_url=base_url)" />
-              <tal:block replace="structure string:${item/title_or_id}">
+              <span tal:content="string:${item/title_or_id}" class="subfolderItemTitle">
                 title
-              </tal:block>
-            </strong>
+              </span>
             </a>
             <tal:block condition="item/nb_children"
               define="global last_child python:repeat['item'].number() + item['nb_children']">
-              :<br />
+              :
             </tal:block>
           </tal:block>
         </tal:block>
@@ -516,9 +512,8 @@
         </tal:block>
         </tal:block>
         </tal:block>
-      </td></tr>
-    </table>
-    <br />
+      </div>
+      <hr class="spacer"/>
     </tal:block>
     </metal:block>
   </metal:block>
