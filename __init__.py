@@ -86,7 +86,6 @@ def initialize(context):
     ToolInit(
         'CPS Boxes Tool',
         tools = tools,
-        product_name = 'CPSBoxes',
         icon = 'tool.png',
         ).initialize(context)
 
