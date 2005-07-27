@@ -581,8 +581,8 @@
                                                  'fullname',manager)"
                          tal:attributes="href
                            python:
-                             here.portal_url.getPortalPath() +
-                               '/directory_getentry?dirname=' +
+                             here.portal_url.getBaseUrl() +
+                               'directory_getentry?dirname=' +
                                here.portal_directories.members.getId() +
                                '&amp;id='+manager">
                       </a>
