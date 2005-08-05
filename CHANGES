@@ -6,12 +6,7 @@ New features:
 -
 Bug fixes:
 ~~~~~~~~~~
-- last_child variable was not always defined in the treebox template in Nuxeo
-  boxes.
-- Modified some ZPT files so that they are valid XHTML 1.0 Strict. This is a
-  work in progress to fix #773 "Using XHTML 1.0 Strict by default for CPS
-  sites".
-- Replaced incorrect code producing broken urls using virtual hosting.
+-
 New internal features:
 ~~~~~~~~~~~~~~~~~~~~~~
 -
