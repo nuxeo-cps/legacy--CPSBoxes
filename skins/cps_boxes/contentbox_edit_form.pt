@@ -26,6 +26,14 @@
 -->
 </script>
   <tr valign="top">
+    <td colspan="6">
+      <strong i18n:translate="cpsboxes_contenttype_help">
+      Display the current folder content *or* display a search result by filling the form below (not restricted to this folder):
+      </strong>
+    </td>
+  </tr>
+
+  <tr valign="top">
     <th align="right" i18n:translate="label_folder">Folder</th>
     <td colspan="3" tal:define="cps_navigation_installed python:modules['Products.CPSUtil.integration'].isProductPresent('Products.CPSNavigation')">
     <tal:block condition="cps_navigation_installed">
@@ -99,7 +107,8 @@
   <tr valign="top">
     <td>&nbsp;</td>
     <td colspan="5">
-        <input type="checkbox" id="cb_no_recurse" name="no_recurse" class= "noborder" tal:attributes="checked box/box/no_recurse" />
+        <input type="checkbox" id="cb_no_recurse" name="no_recurse"
+               class= "noborder" tal:attributes="checked python:box['box'].no_recurse == 1" />
         <label for="cb_no_recurse" i18n:translate="label_contentbox_no_recurse">Do not recurse into subfolders </label>
 
         <button type="button" class="tooltipControl" onclick="toggleElementVisibility('no_recurse_help')">?</button>
