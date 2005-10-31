@@ -17,3 +17,204 @@ msgstr ""
 msgid "cpsboxes_contenttype_help"
 msgstr ""
 
+msgid "Action"
+msgstr ""
+
+msgid "Slot"
+msgstr ""
+
+msgid "button_text_editor_popup"
+msgstr ""
+
+msgid "heading_box_edit_form"
+msgstr ""
+
+msgid "help_contentbox_no_recurse"
+msgstr ""
+
+msgid "help_contentbox_sort"
+msgstr ""
+
+msgid "help_italic_vendor_boxes_types"
+msgstr ""
+
+msgid "label_atom_export"
+msgstr ""
+
+msgid "label_authorized_only"
+msgstr ""
+
+msgid "label_box_content"
+msgstr ""
+
+msgid "label_box_skin"
+msgstr ""
+
+msgid "label_btype"
+msgstr ""
+
+msgid "label_categories"
+msgstr ""
+
+msgid "label_children_only"
+msgstr ""
+
+msgid "label_choose_section"
+msgstr ""
+
+msgid "label_choose_workspace"
+msgstr ""
+
+msgid "label_closed"
+msgstr ""
+
+msgid "label_contentbox_no_recurse"
+msgstr ""
+
+msgid "label_contentbox_zoom"
+msgstr ""
+
+msgid "label_contextual"
+msgstr ""
+
+msgid "label_depth"
+msgstr ""
+
+msgid "label_display_description"
+msgstr ""
+
+msgid "label_display_icons"
+msgstr ""
+
+msgid "label_display_managers"
+msgstr ""
+
+msgid "label_display_root"
+msgstr ""
+
+msgid "label_event_types"
+msgstr ""
+
+msgid "label_event_types_help"
+msgstr ""
+
+msgid "label_events_location"
+msgstr ""
+
+msgid "label_flash_file"
+msgstr ""
+
+msgid "label_flash_height"
+msgstr ""
+
+msgid "label_flash_width"
+msgstr ""
+
+msgid "label_i18n"
+msgstr ""
+
+msgid "label_image_link"
+msgstr ""
+
+msgid "label_maximized"
+msgstr ""
+
+msgid "label_minimized"
+msgstr ""
+
+msgid "label_nb_items"
+msgstr ""
+
+msgid "label_order"
+msgstr ""
+
+msgid "label_pending"
+msgstr ""
+
+msgid "label_published"
+msgstr ""
+
+msgid "label_root"
+msgstr ""
+
+msgid "label_rss_export"
+msgstr ""
+
+msgid "label_search"
+msgstr ""
+
+msgid "label_slot"
+msgstr ""
+
+msgid "label_visible_in_subfolder"
+msgstr ""
+
+msgid "label_visible_only_in_subfolder"
+msgstr ""
+
+msgid "label_work"
+msgstr ""
+
+msgid "link_atom_export"
+msgstr ""
+
+msgid "link_rss_export"
+msgstr ""
+
+msgid "box text body"
+msgstr ""
+
+msgid "box text title"
+msgstr ""
+
+msgid "box_search"
+msgstr ""
+
+msgid "button_create_box"
+msgstr ""
+
+msgid "description_visible_box_from ${context_url}"
+msgstr ""
+
+msgid "heading_box_create_form"
+msgstr ""
+
+msgid "heading_box_manage_form"
+msgstr ""
+
+msgid "label_collaborative_folder"
+msgstr ""
+
+msgid "label_folder_search"
+msgstr ""
+
+msgid "legend_folder_no_search_result"
+msgstr ""
+
+msgid "link_box_delete"
+msgstr ""
+
+msgid "link_box_edit"
+msgstr ""
+
+msgid "link_box_view"
+msgstr ""
+
+msgid "link_more"
+msgstr ""
+
+msgid "listingheader_action"
+msgstr ""
+
+msgid "listingheader_location"
+msgstr ""
+
+msgid "listingheader_order"
+msgstr ""
+
+msgid "listingheader_title"
+msgstr ""
+
+msgid "listingheader_type"
+msgstr ""
+

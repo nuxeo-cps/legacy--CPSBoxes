@@ -1,25 +1,21 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: CPSBoxes-en\n"
+"Project-Id-Version: CPSDefault-de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-09-14 20:52default\n"
-"PO-Revision-Date: 2005-02-09 10:17+0100\n"
-"Last-Translator: ZIADE <tziade@nuxeo.com>\n"
-"Language-Team: en <>\n"
+"POT-Creation-Date: 2005-09-14 20:50default\n"
+"PO-Revision-Date: 2005-03-14 08:50+0100\n"
+"Last-Translator: Georg Hennemann <georg.hennemann@dhl.com>\n"
+"Language-Team: de <rheinland@dzug.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Type: text/plain; charset=iso-8859-15\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: de\n"
+"Language-Name: German\n"
 "Domain: default\n"
 
-msgid "cpsboxes_contenttype_help"
-msgstr ""
-"Display the current folder content *or* display a search result by "
-"filling the form below (not restricted to this folder)"
-
 msgid "Action"
-msgstr "Action"
+msgstr "Aktion"
 
 msgid "Slot"
 msgstr "slot"
@@ -28,7 +24,7 @@ msgid "button_text_editor_popup"
 msgstr "Text Editor..."
 
 msgid "heading_box_edit_form"
-msgstr "Box edition"
+msgstr "Box bearbeiten"
 
 msgid "help_contentbox_no_recurse"
 msgstr ""
@@ -37,34 +33,34 @@ msgstr ""
 
 msgid "help_contentbox_sort"
 msgstr ""
-"To be efficient sorting on a search result will return only the first "
-"hundred documents"
+"Für ein effizientes Sortieren werden bei einem Suchergebnis maximal die "
+"ersten 100 Dokumente angezeigt"
 
 msgid "help_italic_vendor_boxes_types"
 msgstr ""
-"* predefined Box type. Some properties can not be changed from this "
-"interface."
+"Boxen in Kursivschrift sind vordefinierte Typen. Einige Eigenschaften kï¿½nen "
+"nicht geändert werden. Verwenden Sie ggfs. die Standard Boxen."
 
 msgid "label_atom_export"
 msgstr "ATOM"
 
 msgid "label_authorized_only"
-msgstr "Display authorized folders only"
+msgstr "Zeige nur autorisierte Folder"
 
 msgid "label_box_content"
-msgstr "Content"
+msgstr "Inhalt"
 
 msgid "label_box_skin"
-msgstr "Box skin"
+msgstr "Box Skin"
 
 msgid "label_btype"
-msgstr "Type"
+msgstr "Typ"
 
 msgid "label_categories"
-msgstr "Categories"
+msgstr "Kategorien"
 
 msgid "label_children_only"
-msgstr "Display subfolders only"
+msgstr "Zeige nur die Sub-Folder"
 
 msgid "label_choose_section"
 msgstr "Choose sections"
@@ -73,156 +69,160 @@ msgid "label_choose_workspace"
 msgstr "Choose workspaces"
 
 msgid "label_closed"
-msgstr "Close"
+msgstr "Geschlossen"
 
 msgid "label_contentbox_no_recurse"
 msgstr "Do not recurse into subfolders"
 
 msgid "label_contentbox_zoom"
-msgstr "Zoom on the first document"
+msgstr "Vergrössern"
 
 msgid "label_contextual"
-msgstr "Contextual"
+msgstr "Kontext"
 
 msgid "label_depth"
-msgstr "Depth"
+msgstr "Tiefe"
 
 msgid "label_display_description"
-msgstr "Display folder description"
+msgstr "Display Folder Beschreibung"
 
 msgid "label_display_icons"
 msgstr "Icons"
 
 msgid "label_display_managers"
-msgstr "Display folder managers"
+msgstr "Display Folder Manager"
 
 msgid "label_display_root"
-msgstr "Display hierarchy's root"
+msgstr "Ansicht Websektionen "
 
 msgid "label_event_types"
-msgstr "Document types considered as events"
+msgstr "Dokument Typen die als Events gelten"
 
 msgid "label_event_types_help"
 msgstr ""
-"Note: only documents featuring start and end dates can be listed in event "
-"calendars"
+"Beachte: nur Dokumente mit Start- und Ende Datum kï¿½nen im Event Kalender "
+"verwendet werden"
 
 msgid "label_events_location"
-msgstr "Search for events in"
+msgstr "Suche nach Events in"
 
 msgid "label_flash_file"
-msgstr "Flash File"
+msgstr "Flash Datei"
 
 msgid "label_flash_height"
-msgstr "Flash Box Height"
+msgstr "Flash Box Höne"
 
 msgid "label_flash_width"
-msgstr "Flash Box Width"
+msgstr "Flash Box Breite"
+
+msgid "label_folder"
+msgstr "Folder"
 
 msgid "label_i18n"
-msgstr "Translation"
+msgstr "Übersetzung"
 
 msgid "label_image_link"
-msgstr "Image link"
+msgstr "Bild Link"
 
 msgid "label_maximized"
-msgstr "Maximized"
+msgstr "Maximiert"
 
 msgid "label_minimized"
-msgstr "Minimized"
+msgstr "Minimiert"
 
 msgid "label_nb_items"
-msgstr "Nb Items"
+msgstr "Keine Objekte"
 
 msgid "label_order"
-msgstr "Order"
+msgstr "Ordnung"
 
 msgid "label_pending"
-msgstr "Pending"
+msgstr "Schwebend"
 
 msgid "label_published"
-msgstr "Published"
+msgstr "Publiziert"
 
 msgid "label_root"
 msgstr "Root"
 
 msgid "label_rss_export"
-msgstr "RSS"
+msgstr "Sortiert nach"
 
 msgid "label_search"
-msgstr "Search"
+msgstr "Suchen"
 
 msgid "label_slot"
 msgstr "Slot"
 
 msgid "label_visible_in_subfolder"
-msgstr "Visible in subfolder"
+msgstr "Sichtbar in  Subfolder"
 
 msgid "label_visible_only_in_subfolder"
-msgstr "Visible ONLY in subfolder"
+msgstr "Sichtbar NUR  in Subfolder"
 
 msgid "label_work"
-msgstr "Work"
+msgstr "Arbeit"
 
 msgid "link_atom_export"
 msgstr "To the associated ATOM export"
 
 msgid "link_rss_export"
-msgstr "To the associated RSS newsfeed"
+msgstr "Exportiere RSS Daten"
 
 msgid "box text body"
-msgstr "box text title"
+msgstr "Box Text Titel"
 
 msgid "box text title"
-msgstr "box text title"
+msgstr "Box Text Titel"
 
 msgid "box_search"
-msgstr "Search"
+msgstr "Suchen"
 
 msgid "button_create_box"
-msgstr "Create box"
+msgstr "Box erstellen"
 
 msgid "description_visible_box_from ${context_url}"
-msgstr "Description box visible from ${context_url}"
+msgstr "Boxen sichtbar von ${context_url}"
 
 msgid "heading_box_create_form"
-msgstr "Add a Box"
+msgstr "Box hinzufgen"
 
 msgid "heading_box_manage_form"
 msgstr "Manage boxes"
 
 msgid "label_collaborative_folder"
-msgstr "My workspaces"
+msgstr "Mein Arbeitsplatz"
 
 msgid "label_folder_search"
-msgstr "Search a workspace"
+msgstr "Suche in Arbeitsbereich"
 
 msgid "legend_folder_no_search_result"
-msgstr "Your query gave no result."
+msgstr "Die Suche blieb ohne Ergebnis."
 
 msgid "link_box_delete"
-msgstr "Delete"
+msgstr "Löschen"
 
 msgid "link_box_edit"
-msgstr "Edit"
+msgstr "Bearbeiten"
 
 msgid "link_box_view"
-msgstr "View settings"
+msgstr "Anzeigen Einstellungen"
 
 msgid "link_more"
-msgstr "More..."
+msgstr "Mehr..."
 
 msgid "listingheader_action"
-msgstr "Action"
+msgstr "Aktion"
 
 msgid "listingheader_location"
-msgstr "Location"
+msgstr "Ort"
 
 msgid "listingheader_order"
-msgstr "Order"
+msgstr "Ordnung"
 
 msgid "listingheader_title"
-msgstr "Title"
+msgstr "Titel"
 
 msgid "listingheader_type"
-msgstr "Type"
+msgstr "Typ"
+

@@ -1,0 +1,243 @@
+# translation of CPSDefault_en.po to Euskara
+# Aitzol Naberan Burgaña <anaberan@codesyntax.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CPSDefault-eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-09-14 20:52default\n"
+"PO-Revision-Date: 2004-10-04 17:20+0100\n"
+"Last-Translator:  <>\n"
+"Language-Team: Euskara <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Code: eu\n"
+"Language-Name: Basque\n"
+"Domain: default\n"
+
+msgid "Action"
+msgstr "Akzioa"
+
+msgid "Slot"
+msgstr "Ubicación"
+
+msgid "button_text_editor_popup"
+msgstr "Editor de texto..."
+
+msgid "heading_box_edit_form"
+msgstr "Kutxa editatu"
+
+msgid "help_contentbox_no_recurse"
+msgstr ""
+"Compruebe esto si quiere que la búsqueda quede restringida a la carpeta "
+"elegida sin buscar en las subcarpetas. "
+
+msgid "help_contentbox_sort"
+msgstr "La búsqueda devolverá sólo los primeros cien documentos"
+
+#    <em>
+#            Box types in italic are predefined types. You cannot change their
+#            properties from this interface. Use the default box to do so.
+#          </em>
+msgid "help_italic_vendor_boxes_types"
+msgstr ""
+"Los tipos de caja en cursiva son tipos predefinidos, algunas de sus "
+"propiedades no se pueden cambiar desde aquí. Utilice la caja por defecto "
+"para hacerlo."
+
+msgid "label_atom_export"
+msgstr "ATOM"
+
+msgid "label_authorized_only"
+msgstr "Baimendutako karpetak bakarrik erakutsi"
+
+msgid "label_box_content"
+msgstr "edukia"
+
+#    <th align="right">Box skin</th>
+msgid "label_box_skin"
+msgstr "Vestidura de la caja"
+
+msgid "label_btype"
+msgstr "Mota"
+
+msgid "label_categories"
+msgstr "Mailak"
+
+msgid "label_children_only"
+msgstr "Azpikarpetak bakarrik erakutsi"
+
+msgid "label_choose_section"
+msgstr "Seleccionar secciones"
+
+msgid "label_choose_workspace"
+msgstr "Seleccionar espacios de trabajo"
+
+msgid "label_closed"
+msgstr "Itxi"
+
+msgid "label_contentbox_no_recurse"
+msgstr "No distribuir en subcarpetas"
+
+msgid "label_contentbox_zoom"
+msgstr "Lehen dokumentua handitu"
+
+msgid "label_contextual"
+msgstr "Contextual"
+
+msgid "label_depth"
+msgstr "Profundidad"
+
+msgid "label_display_description"
+msgstr "Karpetaren deskribapena erakutsi"
+
+msgid "label_display_icons"
+msgstr "Ikonoak"
+
+msgid "label_display_managers"
+msgstr "Karpetaren kudeatzaileak erakutsi"
+
+#    <th align="right" colspan="5">Show root</th>
+msgid "label_display_root"
+msgstr "Mostrar la raíz de la jerarquía"
+
+msgid "label_event_types"
+msgstr "Tipos de documento a tener en cuenta"
+
+msgid "label_event_types_help"
+msgstr "Hasiera eta amaiera datak dituzten hitzorduak bakarrik agertuko dira"
+
+msgid "label_events_location"
+msgstr "Ebentuak bilatu hemen: "
+
+msgid "label_flash_file"
+msgstr "Flasha"
+
+msgid "label_flash_height"
+msgstr "Flash Kutxaren Altuera"
+
+msgid "label_flash_width"
+msgstr "Flash Kutxaren Zabalera"
+
+msgid "label_i18n"
+msgstr "Traducción"
+
+msgid "label_image_link"
+msgstr "Enlace de la imagen"
+
+msgid "label_maximized"
+msgstr "Handitu"
+
+msgid "label_minimized"
+msgstr "Txikitu"
+
+msgid "label_nb_items"
+msgstr "Nº de objetos"
+
+msgid "label_order"
+msgstr "Hurrenkera"
+
+msgid "label_pending"
+msgstr "Egiteke"
+
+msgid "label_published"
+msgstr "Publikatuta"
+
+#    <th align="right">Root</th>
+msgid "label_root"
+msgstr "Raíz"
+
+msgid "label_rss_export"
+msgstr "RSS"
+
+msgid "label_search"
+msgstr "Bilatu"
+
+msgid "label_slot"
+msgstr "Kokapena (Slot-a)"
+
+msgid "label_visible_in_subfolder"
+msgstr "Azpikarpetetan ere ikusgai"
+
+msgid "label_visible_only_in_subfolder"
+msgstr "Azpikarpetetan BAKARRIK ikusigai"
+
+#    <option attributes="selected python:box['box'].query_status == 'work'" value="work">Work</option>
+#    <option value="work">Work</option>
+msgid "label_work"
+msgstr "Trabajo"
+
+msgid "link_atom_export"
+msgstr "Para la exportación al ATOM asociado"
+
+msgid "link_rss_export"
+msgstr "Al alimentador de noticias asociado RSS"
+
+msgid "box text body"
+msgstr "box text title"
+
+#    <block fill-slot="box_title" content="box/box/title">
+#          box text title
+#        </block>
+#    <block fill-slot="box_title" content="box/box/title">box text title</block>
+#    <block fill-slot="box_title" content="box/box/title">
+#           box text title
+#        </block>
+#    <block fill-slot="box_title" content="box/box/title">
+#           box text title
+#      </block>
+#    <block content="box/box/title">box text title</block>
+msgid "box text title"
+msgstr "Texto de título de la caja"
+
+msgid "box_search"
+msgstr "Bilatu"
+
+msgid "button_create_box"
+msgstr "Kutxa sortu"
+
+msgid "description_visible_box_from ${context_url}"
+msgstr "Hemendik behera ikusiko duzu: ${context_url}"
+
+msgid "heading_box_create_form"
+msgstr "Kutxa gehitu"
+
+msgid "heading_box_manage_form"
+msgstr "Manage boxes"
+
+msgid "label_collaborative_folder"
+msgstr "Nire lan-eremuak"
+
+msgid "label_folder_search"
+msgstr "Lan-eremu bat bilatu"
+
+msgid "legend_folder_no_search_result"
+msgstr "Emaitzarik ez."
+
+msgid "link_box_delete"
+msgstr "Ezabatu"
+
+msgid "link_box_edit"
+msgstr "Editatu"
+
+msgid "link_box_view"
+msgstr "Hobespenak ikusi"
+
+msgid "link_more"
+msgstr "Gehiago..."
+
+msgid "listingheader_action"
+msgstr "Ekintza"
+
+msgid "listingheader_location"
+msgstr "Sorrera-lekua"
+
+msgid "listingheader_order"
+msgstr "Hurrenkera"
+
+msgid "listingheader_title"
+msgstr "Izenburua"
+
+msgid "listingheader_type"
+msgstr "Mota"
