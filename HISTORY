@@ -1,4 +1,20 @@
 *******************************************
+** CPSBoxes V0.2.3 [R1 build 2005/11/07-15:09 by fguillaume]
+** SVN URL: https://svn.nuxeo.org/pub/CPSBoxes/trunk Revision: 29055
+Requires:
+~~~~~~~~~
+-
+New features:
+~~~~~~~~~~~~~
+-
+Bug fixes:
+~~~~~~~~~~
+- Added translations and unit test for translations.
+New internal features:
+~~~~~~~~~~~~~~~~~~~~~~
+-
+
+*******************************************
 ** CPSBoxes V0.2.2 [R1 build 2005/09/21-14:50 by fguillaume]
 ** SVN URL: https://svn.nuxeo.org/pub/CPSBoxes/trunk Revision: 27306
 Requires:
