@@ -94,7 +94,7 @@ class ContentBox(BaseBox):
         {'id': 'query_modified', 'type': 'string', 'mode': 'w',
          'label': 'Modified criteria' },
         {'id': 'no_recurse', 'type': 'boolean', 'mode': 'w',
-         'label': 'Non-recursive search'}, 
+         'label': 'Non-recursive search'},
         )
 
     def __init__(self, id, category='contentbox', folder='', nb_items=0,
@@ -121,11 +121,11 @@ class ContentBox(BaseBox):
     def getContents(self, context):
         """Get a sorted list of contents object"""
         utool = getToolByName(self, 'portal_url')
-        
+
         folder = self._getFolderObject(context)
         items = []
         link_more = ''
-        
+
         if folder:
             query = self._buildQuery(folder)
 
@@ -142,12 +142,12 @@ class ContentBox(BaseBox):
                                       folder_prefix=folder_prefix)
             else:
                 # this is a folder content box
-                displayed = context.REQUEST.get('displayed', [''])
+                displayed = context.REQUEST.get('displayed', None)
                 items = folder.getFolderContents(sort_by=self.sort_by,
                                                  direction=self.direction,
                                                  hide_folder=1,
                                                  displayed=displayed)
-                
+
             if self.nb_items and len(items) > self.nb_items:
                 items = items[:self.nb_items]
                 if len(query):
