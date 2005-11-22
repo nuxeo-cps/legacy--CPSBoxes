@@ -9,4 +9,4 @@ Bug fixes:
 -
 New internal features:
 ~~~~~~~~~~~~~~~~~~~~~~
--
+- ContentBox use the new CPSDefault.utils getFolderContents/filterContents
