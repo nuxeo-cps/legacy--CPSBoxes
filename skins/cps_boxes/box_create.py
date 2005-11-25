@@ -7,7 +7,7 @@ Add a box to the context, create a box container if needed.
 if REQUEST is not None:
     kw.update(REQUEST.form)
 
-context.manage_addProduct['CPSDefault'].addBoxContainer(quiet=1)
+context.manage_addProduct['CPSBoxes'].addBoxContainer(quiet=1)
 idbc = context.portal_boxes.getBoxContainerId(context)
 bc = getattr(context,idbc)
 
