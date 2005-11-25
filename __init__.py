@@ -61,9 +61,6 @@ contentConstructors = (
     EventCalendarBox.addEventCalendarBox,
     InternalLinksBox.addInternalLinksBox,
     DocRenderBox.addDocRenderBox,
-    )
-
-rsscontentConstructors = (
     RSSBox.addRSSBox,
     )
 
@@ -101,13 +98,6 @@ def initialize(context):
                 permission = AddPortalContent,
                 extra_constructors = contentConstructors,
                 fti = fti,
-                ).initialize(context)
-
-    ContentInit('RSS Boxes',
-                content_types=contentClasses,
-                permission=AddPortalContent,
-                extra_constructors=rsscontentConstructors,
-                fti=fti,
                 ).initialize(context)
 
     context.registerClass(BoxesTool.BoxContainer,
