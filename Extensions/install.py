@@ -90,6 +90,9 @@ class CPSBoxesInstaller(CPSInstaller):
             'Doc Render Box':{
                 t: 'CPSBoxes: Doc Render Box (Doc Render Box)',
                 amt: FTI,},
+            'RSS Box':{
+                t: 'CPSBoxes: RSS Box (RSS Box)',
+                amt: FTI,},
         }
 
         self.verifyContentTypes(boxes_dict)
