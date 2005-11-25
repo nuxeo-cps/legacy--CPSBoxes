@@ -174,6 +174,14 @@ items = [
                 'desc': 'description_nuxeo_render_default'},
               ]
      },
+    {'category': 'rssbox',
+     'title': 'portal_type_RssBox_title',
+     'desc':'portal_type_RssBox_description',
+     'types': [{'provider': 'rss',
+                'id': 'default',
+                'desc': 'description_rss_rssbox_default'},
+              ]
+     },
     ]
 
 citems = context.getCustomBoxTypes()

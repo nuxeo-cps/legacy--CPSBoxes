@@ -6,7 +6,7 @@ New features:
 -
 Bug fixes:
 ~~~~~~~~~~
--
+- #1143 added RSS box from CPSRSS
 New internal features:
 ~~~~~~~~~~~~~~~~~~~~~~
 - ContentBox use the new CPSDefault.utils getFolderContents/filterContents

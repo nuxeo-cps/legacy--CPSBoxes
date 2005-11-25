@@ -34,6 +34,7 @@ import FlashBox
 import EventCalendarBox
 import InternalLinksBox
 import DocRenderBox
+import RSSBox
 
 contentClasses = (
     BaseBox.BaseBox,
@@ -46,6 +47,7 @@ contentClasses = (
     EventCalendarBox.EventCalendarBox,
     InternalLinksBox.InternalLinksBox,
     DocRenderBox.DocRenderBox,
+    RSSBox.RSSBox,
     )
 
 contentConstructors = (
@@ -61,6 +63,10 @@ contentConstructors = (
     DocRenderBox.addDocRenderBox,
     )
 
+rsscontentConstructors = (
+    RSSBox.addRSSBox,
+    )
+
 fti = (
     BaseBox.factory_type_information +
     TextBox.factory_type_information +
@@ -72,6 +78,7 @@ fti = (
     EventCalendarBox.factory_type_information +
     InternalLinksBox.factory_type_information +
     DocRenderBox.factory_type_information +
+    RSSBox.factory_type_information +
     ()
     )
 
@@ -94,6 +101,13 @@ def initialize(context):
                 permission = AddPortalContent,
                 extra_constructors = contentConstructors,
                 fti = fti,
+                ).initialize(context)
+
+    ContentInit('RSS Boxes',
+                content_types=contentClasses,
+                permission=AddPortalContent,
+                extra_constructors=rsscontentConstructors,
+                fti=fti,
                 ).initialize(context)
 
     context.registerClass(BoxesTool.BoxContainer,
