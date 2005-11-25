@@ -55,6 +55,45 @@ class CPSBoxesInstaller(CPSInstaller):
         }
         self.verifySkins(skins)
 
+    def setupTypes(self):
+        t = 'typeinfo_name'
+        amt = 'add_meta_type'
+        FTI = 'Factory-based Type Information'
+        boxes_dict =  {
+            'Base Box': {
+                t: 'CPSBoxes: Base Box (Base Box)',
+                amt: FTI,},
+            'Text Box': {
+               t: 'CPSBoxes: Text Box (Text Box)',
+               amt: FTI,},
+            'Tree Box': {
+                t: 'CPSBoxes: Tree Box (Tree Box)',
+                amt: FTI,},
+            'Content Box': {
+                t: 'CPSBoxes: Content Box (Content Box)',
+                amt: FTI,},
+            'Action Box': {
+                t: 'CPSBoxes: Action Box (Action Box)',
+                amt: FTI,},
+            'Image Box': {
+                t: 'CPSBoxes: Image Box (Image Box)',
+                amt: FTI,},
+            'Flash Box': {
+                t: 'CPSBoxes: Flash Box (Flash Box)',
+                amt: FTI,},
+            'Event Calendar Box': {
+                t: 'CPSBoxes: Event Calendar Box (Event Calendar Box)',
+                amt: FTI,},
+            'InternalLinks Box': {
+                t: 'CPSBoxes: InternalLinks Box (InternalLinks Box)',
+                amt: FTI,},
+            'Doc Render Box':{
+                t: 'CPSBoxes: Doc Render Box (Doc Render Box)',
+                amt: FTI,},
+        }
+
+        self.verifyContentTypes(boxes_dict)
+
     def setupBoxes(self):
         self.verifyTool('portal_boxes', 'CPSBoxes', 'CPS Boxes Tool')
         self.log("Adding cps default boxes")
@@ -209,6 +248,9 @@ def install(self):
 
     # skins
     installer.setupSkins()
+
+    # types
+    installer.setupTypes()
 
     # set up boxes
     installer.setupBoxes()
