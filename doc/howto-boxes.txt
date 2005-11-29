@@ -1,94 +1,113 @@
-$Id$
+============
+How-to Boxes
+============
 
-WARNING THIS A DRAFT !!!!
+:Author: Julien Anguenot
+:Revision: $Id$
 
-the main template of the cps web page is divided into 7 slots:
-
-------------------
-|                |   1. top
-|       1        |
-|                |   2. center top
-|----------------|
-|   |        |   |   3. center or folder skin
-|   |   2    |   |
-|   |--------|   |   4. center bottom
-|   |        |   |
-| 6 |   3    | 7 |   5. bottom
-|   |        |   |
-|   |        |   |   6. left
-|   |--------|   |
-|   |        |   |   7. right
-|   |   4    |   |
-|----------------|
-|                |
-|       5        |
-------------------
-
-a box is dipslayed in its slot and ranked by its order attribute
-
-the main template page is a blank page only defining slots
-it use an html table for slot 6/2/3/4/7
-
-boxes are placefull objects they are located in a box container (.cps_boxes)
-located in a folder (section or workspace)
-
-boxes are searched from the root of the cps to your current location
-
-some attributes of a box can be overriden, this allow you to override 
-a box that is define in a parent folder
-
-override defined in the box container in the personal folder
-(/workspaces/members/user_login/.cps_boxes)
-are always interpreted
-except for the minimize/closed in the personal
-areattributes of the loaded boxes.
-
-if you need to do global override like changing a slot for a box
-in a specific sub folder you need to do it with the ZMI
-see .cps_boxes/override tab
+.. sectnum::    :depth: 4
+.. contents::   :depth: 4
 
 
-How to skin a folder
+**Warning:** This is a draft!
+
+
+Introduction and Structure
+==========================
+
+The main template of the CPS web page is divided into 7 slots::
+
+    ------------------
+    |                |   1. top
+    |       1        |
+    |                |   2. center top
+    |----------------|
+    |   |        |   |   3. center or folder skin
+    |   |   2    |   |
+    |   |--------|   |   4. center bottom
+    |   |        |   |
+    | 6 |   3    | 7 |   5. bottom
+    |   |        |   |
+    |   |        |   |   6. left
+    |   |--------|   |
+    |   |        |   |   7. right
+    |   |   4    |   |
+    |----------------|
+    |                |
+    |       5        |
+    ------------------
+
+A box is displayed in its slot and ranked by its order attribute.
+
+The main template page is a blank page only defining slots.  It
+uses an HTML table for slot 6/2/3/4/7.
+
+Boxes are place-full objects; they are located in a box container
+(``.cps_boxes``) located in a folder (section or workspace).
+
+Boxes are searched from the root of the cps to your current
+location.
+
+Some attributes of a box can be overridden; this allow you to
+override a box that is defined in a parent folder.
+
+Overrides defined in the box container in the personal folder
+(``/workspaces/members/user_login/.cps_boxes``) are always
+interpreted except for the minimize/closed in the personal
+area attributes of the loaded boxes.
+
+If you need to do global override, for example changing a slot for
+a box in a specific sub folder, you need to do it with the ZMI.
+See ``.cps_boxes/override`` tab.
+
+
+How to Skin a Folder
 ====================
-the view action on a folder (section|workspace) is folder_view
 
-folder_view will check if there are boxes defined with the slot: 'center'
-(named 'Skin folder' in the UI), on success folder_view will display only
-those boxes,
-if there is no box with the slot 'center' folder_view will display
-default boxes from an hidden slot named 'folder_view'
-these hidden boxes should be edited througth the ZMI
+The view action on a folder (section|workspace) is ``folder_view``:
 
-boxes that belong to the center slot can not be 'acquire' in sub folder
-this way you can have different skin in sub folder
+- ``folder_view`` will check if there are boxes defined with the
+  slot: ``center`` (named ``Skin folder`` in the UI), on success
+  ``folder_view`` will display only those boxes,
+
+- If there is no box with the slot ``center``, ``folder_view``
+  will display default boxes from an hidden slot named
+  ``folder_view``.  These hidden boxes should be edited through
+  the ZMI.
+
+Boxes that belong to the center slot can not be ``acquire`` in sub
+folder.  This way you can have different skin in sub folder.
 
 
-Create a simple foo Box
+Create a Simple foo Box
 =======================
-if your project is named 'bar'
-you want to create a 'foo' box
 
-1/ create a metal macro named 'basebox_foo' in a skin
-   named 'boxes_bar.pt'
+If your project is named ``bar`` and you want to create a ``foo``
+box, do the following:
 
-2/ in getBoxTypes.py
-    {'category': 'basebox',
-     'title': 'portal_type_BaseBox_title',
-     'desc': 'portal_type_BaseBox_description',
-     'types': [
-           ... # add the 3 following lines:
-             {'provider': 'bar',
-              'id': 'foo',
-              'desc': 'description_bar_basebox_foo'},
-           ...
+1. Create a metal macro named ``basebox_foo`` in a skin named
+   ``boxes_bar.pt``.
 
-3/ add to /i18n/custom.pot :
+2. In ``getBoxTypes.py``::
 
-msgid "description_bar_basebox_foo"
-msgstr ""
+       {'category': 'basebox',
+        'title': 'portal_type_BaseBox_title',
+        'desc': 'portal_type_BaseBox_description',
+        'types': [
+              ... # add the 3 following lines:
+                {'provider': 'bar',
+                 'id': 'foo',
+                 'desc': 'description_bar_basebox_foo'},
+              ...
 
-then update_pos + kbabel
+3. Add to ``/i18n/custom.pot``::
 
-if the box is more than a sample macro create a new portal_type
-see TextBox or other *Box.py files
+       msgid "description_bar_basebox_foo"
+       msgstr "some description for foo"
+
+   then run ``Products/CPSI18n/bin/update_pos`` and ``kbabel``.
+
+If the box is more than a sample macro, create a new portal_type.
+See ``TextBox`` or other ``*Box.py`` files.
+
 
