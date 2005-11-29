@@ -1,0 +1,62 @@
+==============================
+Procedure for Overriding Boxes
+==============================
+
+:Author: Julien Anguenot
+:Revision: $Id: howto-box_overriding-fr.txt 484 2005-04-15 15:21:25Z janguenot $
+
+.. sectnum::    :depth: 4
+.. contents::   :depth: 4
+
+This document presents an example that uses a logo box.
+
+
+Adding a New Image
+==================
+
+1. Go into a workspace, an entity, or a community.
+
+2. Click on "Manage boxes".
+
+   This action is the box of actions for the document.  Note that
+   it is *not* the "Manage root boxes" action.
+
+3. Click on "Add a box".  Select "Image box".
+
+   - Title: for example, "Logo 1"
+
+   - Slot: "Center top"
+
+   - Box skin: "min/max/close box"
+
+   - visible in subfolder
+
+   - Type: "A sample image box"
+
+
+Override an Older Image
+=======================
+
+1. Enter the ZMI and within your CPS site, click on the
+   ``workspaces`` folder, for example ``/cps/workspaces/area2``
+
+2. In the container of the box, you should find::
+
+       .cps_boxes
+
+3. Click on the "Overrides" tab.
+
+4. Add a new override: 
+
+   Here it will be necessary to walk in order to find the box in
+   ``.cps_boxes_root`` that you wish to override.  For example, if
+   the box containing the logo of the site is called
+   ``site_logo``, it will be necessary to use the following value::
+
+       .cps_boxes_root/site_logo
+
+5. Make the same number of Slot that is presented for the logo
+   box, in this example "site_logo".  By default, it is usually
+   10, but it is necessary to use the value used in your CPS site.
+
+6. Click on "Save changes".
