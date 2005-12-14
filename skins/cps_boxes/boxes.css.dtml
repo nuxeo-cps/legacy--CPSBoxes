@@ -13,6 +13,61 @@ $Id$
 
 <dtml-with stylesheet_properties>
 
+.workspace {
+  background: <dtml-var workspaceBackground>;
+}
+
+div.contentTabs {
+  padding: 0 0 0 1em;
+  margin: 0;
+}
+div.contentTabs a {
+  background-color: <dtml-var contentTabBackgroundNotSelected>;
+  color: <dtml-var contentTabFontColor>;
+  font-weight: <dtml-var contentTabFontWeight>;
+}
+div.contentTabs a.selected {
+  background-color: <dtml-var mainTabBackground>;
+  color: <dtml-var contentTabFontColorSelected>;
+  font-weight: <dtml-var contentTabFontWeight>;
+}
+
+table.box tr.title {
+  color: <dtml-var boxHeaderFontColor>; <dtml-comment> font color is hardcoded in box_lib </dtml-comment>
+  background-color: <dtml-var boxHeaderBackground>;
+}
+table.box tr.odd {
+  background: <dtml-var boxOddBackground>;
+}
+table.box tr.even {
+  background: <dtml-var boxEvenBackground>;
+}
+
+div.box {
+  margin: 0 0 1em 0;
+}
+div.box .title {
+  font-weight: bold;
+  text-transform: <dtml-var textTransform>;
+}
+div.box .title2 {
+  font-size: 120%;
+  font-weight: bold;
+}
+div.box a.close {
+  border: 0;
+}
+div.box .content {
+  padding: 0.7em;
+}
+div.box ul {
+  margin-left: -1em;
+  padding: 0;
+}
+div.box a.selected {
+  background: <dtml-var messageBackground>;
+}
+
 div.subfolderItem {
   float: left;
   width: 50%;
@@ -26,6 +81,165 @@ span.subfolderItemTitle {
 hr.spacer {
   clear: both;
   visibility: hidden;
+}
+
+<dtml-comment>
+BOX ----------------------------------------
+</dtml-comment>
+
+table.box tr.odd ul, table.box tr.even ul {
+  margin-left: 2em;
+}
+
+div.box {
+  border: none;
+}
+div.box .title {
+  color: <dtml-var boxHeaderFontColor>;
+  background-color: <dtml-var boxHeaderBackground>;
+  border: <dtml-var boxBorder>;
+  border-style: solid solid none solid;
+  padding: 0.2em 0.2em 0.2em 1em;
+}
+div.box .title2 {
+  border: 1px solid <dtml-var mainTabBorderColor>;
+  border-style: none none solid none;
+  padding: 0;
+  margin-bottom: 1em;
+}
+div.box .title a {
+  background-color: <dtml-var boxHeaderBackground>;
+  color: <dtml-var boxHeaderFontColor>;
+}
+div.box .body {
+  border: <dtml-var boxBorder>;
+}
+div.box ul {
+  list-style-image: url("bullet.png");
+  margin-left: 1em;
+}
+div.box a.close {
+  background-color: transparent;
+  float: right;
+  text-transform: none;
+  margin-top: -2px;
+}
+div.box .even {
+  background-color: <dtml-var boxEvenBackground>;
+}
+div.box .odd {
+  background-color: <dtml-var boxOddBackground>;
+}
+div.box .highlight {
+  border: <dtml-var boxHighlight>;
+}
+
+<dtml-comment>
+XML exports (RSS, ATOM)
+</dtml-comment>
+
+div.xmlExports {
+  text-align: right;
+}
+
+span.rssExport a, span.rssExport a:visited, span.rssExport a:hover {
+  border: <dtml-var rssBorder>;
+  background: <dtml-var rssBackground>;
+  color: <dtml-var rssColor>;
+  padding: 0 0.3em 0 0.3em;
+  font: <dtml-var rssFont>;
+  text-decoration: none;
+}
+
+span.atomExport a, span.atomExport a:visited, span.atomExport a:hover {
+  border: <dtml-var atomBorder>;
+  background: <dtml-var atomBackground>;
+  color: <dtml-var atomColor>;
+  padding: 0 0.3em 0 0.3em;
+  font: <dtml-var atomFont>;
+  text-decoration: none;
+}
+
+<dtml-comment>
+COLUMNS ------------------------------
+</dtml-comment>
+
+table.columns {
+  width: 100%;
+}
+table.columns td.left {
+  vertical-align: top;
+  padding-top: 1em;
+  background: <dtml-var columnsLeftBackgroundNS4>;
+}
+table.columns td.main {
+  vertical-align: top;
+  padding-top: 1em;
+}
+table.columns td.right {
+  vertical-align: top;
+  padding-top: 1em;
+  background: <dtml-var columnsRightBackgroundNS4>;
+}
+
+<dtml-comment>
+MENU, http://alistapart.com/articles/slidingdoors2/
+</dtml-comment>
+
+ul.menuTabs {
+  float: left;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid <dtml-var mainTabBorderColorSelected>;
+  padding: 0.5em 0 0 0;
+}
+ul.menuTabs li {
+  float: left;
+  background: <dtml-var mainTabBackgroundNotSelected> url("opentab.png") no-repeat left top;
+  margin: 0 0 0 0.5em;
+  padding: 0 0 0 3px;
+  list-style: none;
+}
+ul.menuTabs a {
+  display: block;
+  float: left;
+  width: 0.1em;
+  padding: 0 10px 0 7px;
+  color: <dtml-var mainTabFontColor>;
+  background: <dtml-var mainTabBackgroundNotSelected> url("closetab.png") no-repeat right top;
+  font-weight: <dtml-var mainTabFontWeight>;
+  text-decoration: none;
+  white-space: nowrap;
+}
+ul.menuTabs li > a {width:auto;}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+ul.menuTabs a {float:none;}
+/* End IE5-Mac hack */
+ul.menuTabs li.selected, ul.menuTabs li:hover {
+  background: <dtml-var mainTabBackground> url("opentab.png") no-repeat left top;
+}
+ul.menuTabs li.selected a, ul.menuTabs li a:hover {
+  color: <dtml-var mainTabFontColorSelected>;
+  background: <dtml-var mainTabBackground> url('closetab.png') no-repeat right top;
+}
+
+<dtml-comment>
+menuSectionsAndWorkspaceRoot is a menuTab with workpsaces items
+</dtml-comment>
+
+#menuSectionsAndWorkspaceRoot li.workspace {
+  background: <dtml-var workspaceBackground> url("opentab.png") no-repeat left top;
+}
+#menuSectionsAndWorkspaceRoot li.workspace a {
+  color: #000;
+  background: <dtml-var workspaceBackground> url("closetab.png") no-repeat right top;
+}
+#menuSectionsAndWorkspaceRoot li.workspace.selected, #menuSectionsAndWorkspaceRoot li.workspace:hover {
+  background: <dtml-var workspaceBackgroundSelected> url("opentab.png") no-repeat left top;
+}
+#menuSectionsAndWorkspaceRoot li.workspace.selected a, #menuSectionsAndWorkspaceRoot li.workspace a:hover {
+  color: #fff;
+  background: <dtml-var workspaceBackgroundSelected> url('closetab.png') no-repeat right top;
 }
 
 </dtml-with>

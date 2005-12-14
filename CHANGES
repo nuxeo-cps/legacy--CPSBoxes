@@ -8,6 +8,8 @@ Bug fixes:
 ~~~~~~~~~~
 - #1143 added RSS box from CPSRSS
 - box types were not getting installed
+- Fixed #770: Remove in cpsdefault.css.dtml all the CSS directives pertaining to
+  CPSBoxes and put them in a cpsboxes.css.dtml file.
 New internal features:
 ~~~~~~~~~~~~~~~~~~~~~~
 - ContentBox use the new CPSDefault.utils getFolderContents/filterContents
