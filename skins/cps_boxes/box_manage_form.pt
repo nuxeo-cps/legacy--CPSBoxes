@@ -24,7 +24,8 @@
 <metal:main fill-slot="main">
 
 <tal:block repeat="slot_name here/getBoxSlots">
-<tal:block define="sboxes python:btool.getBoxes(here,
+<tal:block define="btool here/portal_boxes;
+                   sboxes python:btool.getBoxes(here,
                           include_only_in_subfolder=1);
                    sboxes python:btool.filterBoxes(sboxes, slot=slot_name,
                           keep_closed=1);"

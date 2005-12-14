@@ -11,6 +11,7 @@
 
 <div class="description" tal:content="box_url" />
 
+<tal:block define="btool here/portal_boxes">
 <tal:block repeat="box python:btool.getBoxes(here,
                        include_only_in_subfolder=1)">
 <tal:block condition="python:box['url'] == box_url">
@@ -149,6 +150,7 @@
   </p>
 </form>
   </tal:block>
+</tal:block>
 </tal:block>
 </metal:macro>
 </metal:main>
