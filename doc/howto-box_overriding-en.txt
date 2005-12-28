@@ -3,7 +3,7 @@ Procedure for Overriding Boxes
 ==============================
 
 :Author: Julien Anguenot
-:Revision: $Id: howto-box_overriding-fr.txt 484 2005-04-15 15:21:25Z janguenot $
+:Revision: $Id$
 
 .. sectnum::    :depth: 4
 .. contents::   :depth: 4
