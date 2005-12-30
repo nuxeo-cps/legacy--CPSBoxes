@@ -13,3 +13,4 @@ Bug fixes:
 New internal features:
 ~~~~~~~~~~~~~~~~~~~~~~
 - ContentBox use the new CPSDefault.utils getFolderContents/filterContents
+- CPS css_slot was renamed style_slot to comply with later CMF/Zope 3 standard.
