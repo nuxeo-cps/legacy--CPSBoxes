@@ -14,6 +14,205 @@ msgstr ""
 "Preferred-encodings: utf-8 latin1\n"
 "Domain: default\n"
 
+# Actions
+#########
+msgid "action_boxes"
+msgstr ""
+
+msgid "action_boxes_root"
+msgstr ""
+
+# Descriptions
+##############
+msgid "description_box_skin_box"
+msgstr ""
+
+msgid "description_box_skin_mmcbox"
+msgstr ""
+
+msgid "description_box_skin_mmbox"
+msgstr ""
+
+msgid "description_box_skin_sbox"
+msgstr ""
+
+msgid "description_box_skin_sbox2"
+msgstr ""
+
+msgid "description_box_skin_wbox"
+msgstr ""
+
+msgid "description_box_skin_wbox2"
+msgstr ""
+
+msgid "description_box_skin_wbox3"
+msgstr ""
+
+# Status messages (psm)
+#######################
+msgid "psm_box_created"
+msgstr ""
+
+msgid "psm_box_modified"
+msgstr ""
+
+msgid "psm_box_deleted"
+msgstr ""
+
+# Portal_type boxes
+###################
+msgid "portal_type_ActionBox_title"
+msgstr ""
+
+msgid "portal_type_ActionBox_description"
+msgstr ""
+
+msgid "portal_type_BaseBox_title"
+msgstr ""
+
+msgid "portal_type_BaseBox_description"
+msgstr ""
+
+msgid "portal_type_TextBox_title"
+msgstr ""
+
+msgid "portal_type_TextBox_description"
+msgstr ""
+
+msgid "portal_type_TreeBox_title"
+msgstr ""
+
+msgid "portal_type_TreeBox_description"
+msgstr ""
+
+msgid "portal_type_ContentBox_title"
+msgstr ""
+
+msgid "portal_type_ContentBox_description"
+msgstr ""
+
+msgid "portal_type_ImageBox_title"
+msgstr ""
+
+msgid "portal_type_ImageBox_description"
+msgstr ""
+
+msgid "portal_type_RSSBox_title"
+msgstr ""
+
+msgid "portal_type_RSSBox_description"
+msgstr ""
+
+msgid "portal_type_FlashBox_title"
+msgstr ""
+
+msgid "portal_type_FlashBox_description"
+msgstr ""
+
+msgid "portal_type_InternalLinksBox_title"
+msgstr ""
+
+msgid "portal_type_InternalLinksBox_description"
+msgstr ""
+
+msgid "portal_type_DocRenderBox_title"
+msgstr ""
+
+msgid "portal_type_DocRenderBox_description"
+msgstr ""
+
+# Box format descriptions
+#########################
+msgid "description_nuxeo_basebox_default"
+msgstr ""
+
+msgid "description_nuxeo_basebox_hr_separator"
+msgstr ""
+
+msgid "description_nuxeo_basebox_br_separator"
+msgstr ""
+
+msgid "description_nuxeo_basebox_logo"
+msgstr ""
+
+msgid "description_nuxeo_basebox_search"
+msgstr ""
+
+msgid "description_nuxeo_basebox_menu"
+msgstr ""
+
+msgid "description_nuxeo_basebox_breadcrumbs"
+msgstr ""
+
+msgid "description_nuxeo_basebox_l10n_select"
+msgstr ""
+
+msgid "description_nuxeo_basebox_footer"
+msgstr ""
+
+msgid "description_nuxeo_basebox_conformance_statement"
+msgstr ""
+
+msgid "description_nuxeo_basebox_folder_header"
+msgstr ""
+
+msgid "description_nuxeo_basebox_welcome"
+msgstr ""
+
+msgid "description_nuxeo_basebox_calendar"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_default"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_last_modified"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_simple"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_pending"
+msgstr ""
+
+msgid "description_nuxeo_textbox_default"
+msgstr ""
+
+msgid "description_nuxeo_treebox_default"
+msgstr ""
+
+msgid "description_nuxeo_treebox_center"
+msgstr ""
+
+msgid "description_nuxeo_treebox_sitemap"
+msgstr ""
+
+msgid "description_nuxeo_actionbox_default"
+msgstr ""
+
+msgid "description_nuxeo_actionbox_user"
+msgstr ""
+
+msgid "description_nuxeo_actionbox_menu"
+msgstr ""
+
+msgid "description_nuxeo_actionbox_header"
+msgstr ""
+
+msgid "description_nuxeo_imagebox_default"
+msgstr ""
+
+msgid "description_nuxeo_flashbox_default"
+msgstr ""
+
+msgid "description_nuxeo_treebox_sitemap_adv"
+msgstr ""
+
+msgid "description_nuxeo_internallinks_default"
+msgstr ""
+
+msgid "description_nuxeo_render_default"
+msgstr ""
+
 msgid "cpsboxes_contenttype_help"
 msgstr ""
 

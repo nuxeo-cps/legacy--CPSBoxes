@@ -665,3 +665,39 @@ msgstr ""
 #: from ../skins/cps_boxes/contentbox_edit_form.pt
 msgid "time_yesterday"
 msgstr ""
+
+msgid "box_closed_boxes"
+msgstr "Contenitori chiusi:&nbsp;"
+
+msgid "description_up_to ${up_id}"
+msgstr "Ritorna a: ${up_id}"
+
+msgid "label_accesskey_title"
+msgstr "Les raccourcis clavier ou accesskeys"
+
+msgid "button_hide_blocked_roles"
+msgstr "Cacher"
+
+msgid "button_show_blocked_roles"
+msgstr "Montrer"
+
+msgid "description_login_success"
+msgstr "Bienvenue. Vous êtes connecté au portail."
+
+msgid "heading_login_success"
+msgstr "Authentification réussie"
+
+msgid "label_inherited_blocked_role"
+msgstr "Rôle hérité et bloqué"
+
+msgid "legend_local_roles_hide_blocked_roles"
+msgstr "Vous pouvez cacher les rôles bloqués :"
+
+msgid "legend_local_roles_inherited_blocked_role"
+msgstr ""
+"cette couleur signifie que les rôles correspondants sont hérités et "
+"bloqués."
+
+msgid "legend_local_roles_show_blocked_roles"
+msgstr "Vous pouvez cacher les rôles bloqués :"
+

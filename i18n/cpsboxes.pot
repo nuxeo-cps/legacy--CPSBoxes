@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: default\n"
-"POT-Creation-Date: 2005-12-29 16:02default\n"
+"POT-Creation-Date: 2006-01-03 15:32default\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Your Name <your@email>\n"
 "Language-Team: Name <email>\n"
@@ -34,39 +34,12 @@ msgstr ""
 msgid "Action"
 msgstr ""
 
-#.   <option content="python:lang_voc.getMsgid(language)" attributes="value language;
-#.                               selected python:test(language==selected_language,'selected', nothing);" condition="python:language in languages">
-#.         Language</option>
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-msgid "Language"
-msgstr ""
-
-#.   <dd content="item/Description">
-#.                   Portal type's description
-#.                 </dd>
-#: from ../skins/cps_boxes/box_create_form.pt
-msgid "Portal type's description"
-msgstr ""
-
-#.   <label for="" content="item/Title" attributes="for string:cb_${repeat/item/number}">
-#.                     Portal type's title
-#.                   </label>
-#: from ../skins/cps_boxes/box_create_form.pt
-msgid "Portal type's title"
-msgstr ""
-
 #.   <option value="slot" content="string:label_${slot}" attributes="value slot;
 #.             selected python:test(slot==selected_slot,'selected', nothing);">Slot</option>
 #.   <span content="string:label_${slot_name}">Slot</span>
 #: from ../skins/cps_boxes/basebox_edit_form.pt
 #: ../skins/cps_boxes/box_manage_form.pt
 msgid "Slot"
-msgstr ""
-
-#.   <block content="box/box/title" condition="python:box['box'].category != 'actionbox' or
-#.                               box['box'].btype != 'user'">Title</block>
-#: from ../skins/cps_boxes/box_lib.pt
-msgid "Title"
 msgstr ""
 
 #.   <block content="structure box/box/text" condition="i18n">box text body</block>
@@ -100,56 +73,11 @@ msgstr ""
 msgid "box_search"
 msgstr ""
 
-#.   <input type="submit" class="standalone searchButton" value="button_add" />
-#: from ../skins/cps_boxes/box_create_form.pt
-msgid "button_add"
-msgstr ""
-
-#.   <input name="back" type="submit" class="context" value="button_back" />
-#: from ../skins/cps_boxes/basebox_edit_form.pt
-msgid "button_back"
-msgstr ""
-
-#.   <input name="change" type="submit" class="standalone" value="button_change" condition="python:checkPerm('Manage Boxes', box['box'])" />
-#: from ../skins/cps_boxes/basebox_edit_form.pt
-msgid "button_change"
-msgstr ""
-
-#.   <input name="change_and_edit" type="submit" class="standalone" value="button_change_and_edit" condition="python:checkPerm('Manage Boxes', box['box'])" />
-#: from ../skins/cps_boxes/basebox_edit_form.pt
-msgid "button_change_and_edit"
-msgstr ""
-
 #.   <a href="box_create_form" attributes="href string:${context_urlc}/box_create_form">Add a box</a>
 #.   <a href="box_create_form" attributes="href string:${context_urlc}/box_create_form?slot_name=${slot_name}">
 #.       Add a box</a>
 #: from ../skins/cps_boxes/box_manage_form.pt
 msgid "button_create_box"
-msgstr ""
-
-#.   <input type="submit" value="button_ok" />
-#.   <input type="submit" class="context searchButton" value="button_ok" />
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-msgid "button_ok"
-msgstr ""
-
-#.   <input type="submit" class="context searchButton" value="button_search" />
-#.   <input name="search_item" onclick="open_search_dialog()" type="button" value="button_search" />
-#.   <input name="search_doc" onclick="open_dialog_render_box()" type="button" value="button_search">
-#.   
-#.         </input>
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-#: ../skins/cps_boxes/internallinksbox_edit_form.pt
-#: ../skins/cps_boxes/renderbox_edit_form.pt
-msgid "button_search"
-msgstr ""
-
-#.   <button type="button" attributes="
-#.           style string:visibility: visible;
-#.           onclick string:javascript:popup_rte('textbox_content', 'Texte')
-#.           ">Layout</button>
-#: from ../skins/cps_boxes/textbox_edit_form.pt
-msgid "button_text_editor_popup"
 msgstr ""
 
 #.   <strong>
@@ -206,17 +134,6 @@ msgstr ""
 msgid "help_italic_vendor_boxes_types"
 msgstr ""
 
-#.   <img src="cps-minibanner.png" title="label_advertisement_use_cps" alt="label_advertisement_use_cps" width="80" height="15" attributes="src string:${base_url}cps-minibanner.png" />
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-msgid "label_advertisement_use_cps"
-msgstr ""
-
-#.   <option value="">All</option>
-#.   <option value="" attributes="selected python:notempty==[] or selbox==[]">All</option>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "label_all"
-msgstr ""
-
 #.   <a attributes="href string:exportAtomContentBox?box_url=${box/url}" title="link_atom_export">ATOM</a>
 #: from ../skins/cps_boxes/xml_exports.pt
 msgid "label_atom_export"
@@ -257,11 +174,6 @@ msgstr ""
 msgid "label_children_only"
 msgstr ""
 
-#.   <option value="" attributes="selected not:box/box/query_modified">Choose</option>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "label_choose"
-msgstr ""
-
 #.   <button type="button" onclick="popup_nav_sc('divsubmitselection_sc',
 #.                                                                         'Select folder for recherche') " size="30">
 #.                                                                Choose sections</button>
@@ -286,21 +198,6 @@ msgstr ""
 msgid "label_collaborative_folder"
 msgstr ""
 
-#.   <img src="valid-css.png" title="label_conformance_valid_css" alt="Valid CSS" width="80" height="15" attributes="src string:${base_url}valid-css.png" />
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-msgid "label_conformance_valid_css"
-msgstr ""
-
-#.   <img src="valid-xhtml10.png" title="label_conformance_valid_xhtml" alt="Valid XHTML 1.0" width="80" height="15" attributes="src string:${base_url}valid-xhtml10.png" />
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-msgid "label_conformance_valid_xhtml"
-msgstr ""
-
-#.   <img src="wcag1A.png" title="label_conformance_wai_1a" alt="W3C Web Content Accessibility Level A conformance" width="80" height="15" attributes="src string:${base_url}wcag1A.png" />
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-msgid "label_conformance_wai_1a"
-msgstr ""
-
 #.   <label for="cb_no_recurse">Do not recurse into subfolders </label>
 #: from ../skins/cps_boxes/contentbox_edit_form.pt
 msgid "label_contentbox_no_recurse"
@@ -319,11 +216,6 @@ msgstr ""
 #.   <th align="right">Depth</th>
 #: from ../skins/cps_boxes/treebox_edit_form.pt
 msgid "label_depth"
-msgstr ""
-
-#.   <label for="box_display">Display</label>
-#: from ../skins/cps_boxes/basebox_edit_form.pt
-msgid "label_display"
 msgstr ""
 
 #.   <th colspan="5" align="right">Display description</th>
@@ -361,24 +253,6 @@ msgstr ""
 msgid "label_events_location"
 msgstr ""
 
-#.   <label for="radio_change">label_file_change</label>
-#: from ../skins/cps_boxes/flashbox_edit_form.pt
-#: ../skins/cps_boxes/imagebox_edit_form.pt
-msgid "label_file_change"
-msgstr ""
-
-#.   <label for="radio_delete">label_file_delete</label>
-#: from ../skins/cps_boxes/flashbox_edit_form.pt
-#: ../skins/cps_boxes/imagebox_edit_form.pt
-msgid "label_file_delete"
-msgstr ""
-
-#.   <label for="radio_keep">label_file_keep</label>
-#: from ../skins/cps_boxes/flashbox_edit_form.pt
-#: ../skins/cps_boxes/imagebox_edit_form.pt
-msgid "label_file_keep"
-msgstr ""
-
 #.   <th align="right">label_flash_file</th>
 #: from ../skins/cps_boxes/flashbox_edit_form.pt
 msgid "label_flash_file"
@@ -404,31 +278,14 @@ msgstr ""
 msgid "label_folder_search"
 msgstr ""
 
-#.   <span condition="isAnon">
-#.           Guest
-#.         </span>
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-msgid "label_guest"
-msgstr ""
-
 #.   <label for="textbox_i18n">Translation</label>
 #: from ../skins/cps_boxes/textbox_edit_form.pt
 msgid "label_i18n"
 msgstr ""
 
-#.   <th align="right">label_image</th>
-#: from ../skins/cps_boxes/imagebox_edit_form.pt
-msgid "label_image"
-msgstr ""
-
 #.   <th align="right">label_image_link</th>
 #: from ../skins/cps_boxes/imagebox_edit_form.pt
 msgid "label_image_link"
-msgstr ""
-
-#.   <label for="languageChooser">Language</label>
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-msgid "label_language"
 msgstr ""
 
 #.   <th align="right">Max items displayed</th>
@@ -481,53 +338,11 @@ msgstr ""
 msgid "label_search"
 msgstr ""
 
-#.   <span>Description</span>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "label_search_description"
-msgstr ""
-
-#.   <span>Full text</span>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "label_search_full_text"
-msgstr ""
-
-#.   <span>Modified since</span>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "label_search_modified_since"
-msgstr ""
-
-#.   <span>Portal type</span>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "label_search_portal_type"
-msgstr ""
-
-#.   <span>Status</span>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "label_search_status"
-msgstr ""
-
-#.   <span>Description</span>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "label_search_title"
-msgstr ""
-
 #.   <label for="box_slot">Slot</label>
 #.   <span>slot</span>
 #: from ../skins/cps_boxes/basebox_edit_form.pt
 #: ../skins/cps_boxes/box_manage_form.pt
 msgid "label_slot"
-msgstr ""
-
-#.   <label for="searchGadget">Text to search</label>
-#: from ../skins/cps_boxes/boxes_nuxeo.pt
-msgid "label_text_to_search"
-msgstr ""
-
-#.   <label for="box_title">Title</label>
-#.   <label for="title">Title</label>
-#: from ../skins/cps_boxes/basebox_edit_form.pt
-#: ../skins/cps_boxes/box_create_form.pt
-msgid "label_title"
 msgstr ""
 
 #.   <label for="box_display_in_subfolder">visible in subfolder</label>
@@ -608,22 +423,204 @@ msgstr ""
 msgid "listingheader_type"
 msgstr ""
 
-#.   <option value="time_last_login" attributes="selected python:box['box'].query_modified == 'time_last_login'">time_last_login</option>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "time_last_login"
+# Actions
+# ########
+msgid "action_boxes"
 msgstr ""
 
-#.   <option value="time_last_month" attributes="selected python:box['box'].query_modified == 'time_last_month'">time_last_month</option>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "time_last_month"
+msgid "action_boxes_root"
 msgstr ""
 
-#.   <option value="time_last_week" attributes="selected python:box['box'].query_modified == 'time_last_week'">time_last_week</option>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "time_last_week"
+# Descriptions
+# #############
+msgid "description_box_skin_box"
 msgstr ""
 
-#.   <option value="time_yesterday" attributes="selected python:box['box'].query_modified == 'time_yesterday'">time_yesterday</option>
-#: from ../skins/cps_boxes/contentbox_edit_form.pt
-msgid "time_yesterday"
+msgid "description_box_skin_mmcbox"
+msgstr ""
+
+msgid "description_box_skin_mmbox"
+msgstr ""
+
+msgid "description_box_skin_sbox"
+msgstr ""
+
+msgid "description_box_skin_sbox2"
+msgstr ""
+
+msgid "description_box_skin_wbox"
+msgstr ""
+
+msgid "description_box_skin_wbox2"
+msgstr ""
+
+msgid "description_box_skin_wbox3"
+msgstr ""
+
+# Status messages (psm)
+# ######################
+msgid "psm_box_created"
+msgstr ""
+
+msgid "psm_box_modified"
+msgstr ""
+
+msgid "psm_box_deleted"
+msgstr ""
+
+# Portal_type boxes
+# ##################
+msgid "portal_type_ActionBox_title"
+msgstr ""
+
+msgid "portal_type_ActionBox_description"
+msgstr ""
+
+msgid "portal_type_BaseBox_title"
+msgstr ""
+
+msgid "portal_type_BaseBox_description"
+msgstr ""
+
+msgid "portal_type_TextBox_title"
+msgstr ""
+
+msgid "portal_type_TextBox_description"
+msgstr ""
+
+msgid "portal_type_TreeBox_title"
+msgstr ""
+
+msgid "portal_type_TreeBox_description"
+msgstr ""
+
+msgid "portal_type_ContentBox_title"
+msgstr ""
+
+msgid "portal_type_ContentBox_description"
+msgstr ""
+
+msgid "portal_type_ImageBox_title"
+msgstr ""
+
+msgid "portal_type_ImageBox_description"
+msgstr ""
+
+msgid "portal_type_RSSBox_title"
+msgstr ""
+
+msgid "portal_type_RSSBox_description"
+msgstr ""
+
+msgid "portal_type_FlashBox_title"
+msgstr ""
+
+msgid "portal_type_FlashBox_description"
+msgstr ""
+
+msgid "portal_type_InternalLinksBox_title"
+msgstr ""
+
+msgid "portal_type_InternalLinksBox_description"
+msgstr ""
+
+msgid "portal_type_DocRenderBox_title"
+msgstr ""
+
+msgid "portal_type_DocRenderBox_description"
+msgstr ""
+
+# Box format descriptions
+# ########################
+msgid "description_nuxeo_basebox_default"
+msgstr ""
+
+msgid "description_nuxeo_basebox_hr_separator"
+msgstr ""
+
+msgid "description_nuxeo_basebox_br_separator"
+msgstr ""
+
+msgid "description_nuxeo_basebox_logo"
+msgstr ""
+
+msgid "description_nuxeo_basebox_search"
+msgstr ""
+
+msgid "description_nuxeo_basebox_menu"
+msgstr ""
+
+msgid "description_nuxeo_basebox_breadcrumbs"
+msgstr ""
+
+msgid "description_nuxeo_basebox_l10n_select"
+msgstr ""
+
+msgid "description_nuxeo_basebox_footer"
+msgstr ""
+
+msgid "description_nuxeo_basebox_conformance_statement"
+msgstr ""
+
+msgid "description_nuxeo_basebox_folder_header"
+msgstr ""
+
+msgid "description_nuxeo_basebox_welcome"
+msgstr ""
+
+msgid "description_nuxeo_basebox_calendar"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_default"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_last_modified"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_simple"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_pending"
+msgstr ""
+
+msgid "description_nuxeo_textbox_default"
+msgstr ""
+
+msgid "description_nuxeo_treebox_default"
+msgstr ""
+
+msgid "description_nuxeo_treebox_center"
+msgstr ""
+
+msgid "description_nuxeo_treebox_sitemap"
+msgstr ""
+
+msgid "description_nuxeo_actionbox_default"
+msgstr ""
+
+msgid "description_nuxeo_actionbox_user"
+msgstr ""
+
+msgid "description_nuxeo_actionbox_menu"
+msgstr ""
+
+msgid "description_nuxeo_actionbox_header"
+msgstr ""
+
+msgid "description_nuxeo_imagebox_default"
+msgstr ""
+
+msgid "description_nuxeo_flashbox_default"
+msgstr ""
+
+msgid "description_nuxeo_treebox_sitemap_adv"
+msgstr ""
+
+msgid "description_nuxeo_internallinks_default"
+msgstr ""
+
+msgid "description_nuxeo_render_default"
+msgstr ""
+
+msgid "button_text_editor_popup"
 msgstr ""

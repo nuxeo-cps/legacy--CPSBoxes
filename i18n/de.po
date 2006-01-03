@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CPSDefault-de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-12-29 16:01default\n"
+"POT-Creation-Date: 2005-12-29 16:02default\n"
 "PO-Revision-Date: 2005-03-14 08:50+0100\n"
 "Last-Translator: Georg Hennemann <georg.hennemann@dhl.com>\n"
 "Language-Team: de <rheinland@dzug.org>\n"
@@ -93,7 +93,7 @@ msgstr "Box Text Titel"
 #: from ../skins/cps_boxes/main_template.pt
 #: ../skins/cps_boxes/main_template_debug.pt
 msgid "box_closed_boxes"
-msgstr ""
+msgstr "Geschlossene Boxen"
 
 #.   <span>Search:</span>
 #: from ../skins/cps_boxes/boxes_nuxeo.pt
@@ -170,7 +170,7 @@ msgstr ""
 #.     </span>
 #: from ../skins/cps_boxes/boxes_nuxeo.pt
 msgid "description_up_to ${up_id}"
-msgstr ""
+msgstr "Zurück zu ${up_id}"
 
 #.   <p>
 #.     description_visible_box_from ${context_url (tal content="context_url")}
@@ -660,3 +660,253 @@ msgstr ""
 #: from ../skins/cps_boxes/contentbox_edit_form.pt
 msgid "time_yesterday"
 msgstr ""
+
+# Actions
+# ########
+msgid "action_boxes"
+msgstr ""
+
+msgid "action_boxes_root"
+msgstr ""
+
+#, fuzzy
+msgid "description_box_skin_box"
+msgstr "simple box"
+
+#, fuzzy
+msgid "description_box_skin_mmcbox"
+msgstr "min/max/close box"
+
+#, fuzzy
+msgid "description_box_skin_mmbox"
+msgstr "min/max box"
+
+#, fuzzy
+msgid "description_box_skin_sbox"
+msgstr "frame box"
+
+#, fuzzy
+msgid "description_box_skin_sbox2"
+msgstr "frame box without title"
+
+#, fuzzy
+msgid "description_box_skin_wbox"
+msgstr "box without frame"
+
+#, fuzzy
+msgid "description_box_skin_wbox2"
+msgstr "box without frame and without title"
+
+#, fuzzy
+msgid "description_box_skin_wbox3"
+msgstr "box without frame without title, and without style"
+
+# Status messages (psm)
+# ######################
+msgid "psm_box_created"
+msgstr ""
+
+msgid "psm_box_modified"
+msgstr ""
+
+#, fuzzy
+msgid "psm_box_deleted"
+msgstr "Box deleted."
+
+#, fuzzy
+msgid "portal_type_ActionBox_title"
+msgstr "Action box"
+
+msgid "portal_type_ActionBox_description"
+msgstr ""
+
+#, fuzzy
+msgid "portal_type_BaseBox_title"
+msgstr "Base box"
+
+#, fuzzy
+msgid "portal_type_BaseBox_description"
+msgstr "Generic box like logo, search..."
+
+#, fuzzy
+msgid "portal_type_TextBox_title"
+msgstr "Text box"
+
+msgid "portal_type_TextBox_description"
+msgstr ""
+
+#, fuzzy
+msgid "portal_type_TreeBox_title"
+msgstr "Tree box"
+
+#, fuzzy
+msgid "portal_type_TreeBox_description"
+msgstr "Navigation helper like menu and folders in a tree-like format"
+
+msgid "portal_type_ContentBox_title"
+msgstr ""
+
+msgid "portal_type_ContentBox_description"
+msgstr ""
+
+#, fuzzy
+msgid "portal_type_ImageBox_title"
+msgstr "Image box"
+
+#, fuzzy
+msgid "portal_type_ImageBox_description"
+msgstr "A generic box with an image, logo folder header..."
+
+#, fuzzy
+msgid "portal_type_RSSBox_title"
+msgstr "RSS box"
+
+msgid "portal_type_RSSBox_description"
+msgstr ""
+
+#, fuzzy
+msgid "portal_type_FlashBox_title"
+msgstr "Flash Box"
+
+#, fuzzy
+msgid "portal_type_FlashBox_description"
+msgstr "A box displaying Macromedia&trade; Flash&trade; movies"
+
+msgid "portal_type_InternalLinksBox_title"
+msgstr ""
+
+msgid "portal_type_InternalLinksBox_description"
+msgstr ""
+
+msgid "portal_type_DocRenderBox_title"
+msgstr ""
+
+msgid "portal_type_DocRenderBox_description"
+msgstr ""
+
+# Box format descriptions
+# ########################
+msgid "description_nuxeo_basebox_default"
+msgstr ""
+
+msgid "description_nuxeo_basebox_hr_separator"
+msgstr ""
+
+msgid "description_nuxeo_basebox_br_separator"
+msgstr ""
+
+msgid "description_nuxeo_basebox_logo"
+msgstr ""
+
+msgid "description_nuxeo_basebox_search"
+msgstr ""
+
+msgid "description_nuxeo_basebox_menu"
+msgstr ""
+
+msgid "description_nuxeo_basebox_breadcrumbs"
+msgstr ""
+
+msgid "description_nuxeo_basebox_l10n_select"
+msgstr ""
+
+#, fuzzy
+msgid "description_nuxeo_basebox_footer"
+msgstr "The Nuxeo footer."
+
+msgid "description_nuxeo_basebox_conformance_statement"
+msgstr ""
+
+msgid "description_nuxeo_basebox_folder_header"
+msgstr ""
+
+msgid "description_nuxeo_basebox_welcome"
+msgstr ""
+
+msgid "description_nuxeo_basebox_calendar"
+msgstr ""
+
+#, fuzzy
+msgid "description_nuxeo_contentbox_default"
+msgstr "A default content box."
+
+msgid "description_nuxeo_contentbox_last_modified"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_simple"
+msgstr ""
+
+msgid "description_nuxeo_contentbox_pending"
+msgstr ""
+
+#, fuzzy
+msgid "description_nuxeo_textbox_default"
+msgstr "A default text box."
+
+#, fuzzy
+msgid "description_nuxeo_treebox_default"
+msgstr "A default navigation box."
+
+#, fuzzy
+msgid "description_nuxeo_treebox_center"
+msgstr "A contextual center navigation that display 2 level of sub-sections."
+
+#, fuzzy
+msgid "description_nuxeo_treebox_sitemap"
+msgstr "A sitemap"
+
+msgid "description_nuxeo_actionbox_default"
+msgstr ""
+
+#, fuzzy
+msgid "description_nuxeo_actionbox_user"
+msgstr "The Nuxeo user box."
+
+msgid "description_nuxeo_actionbox_menu"
+msgstr ""
+
+#, fuzzy
+msgid "description_nuxeo_actionbox_header"
+msgstr "A header action list"
+
+msgid "description_nuxeo_imagebox_default"
+msgstr ""
+
+msgid "description_nuxeo_flashbox_default"
+msgstr ""
+
+#, fuzzy
+msgid "description_nuxeo_treebox_sitemap_adv"
+msgstr "An advanced workspace map"
+
+msgid "description_nuxeo_internallinks_default"
+msgstr ""
+
+msgid "description_nuxeo_render_default"
+msgstr ""
+
+#~ msgid "label_accesskey_title"
+#~ msgstr "Keyboard shortcuts or accesskeys"
+
+#~ msgid "button_hide_blocked_roles"
+#~ msgstr "Verstecken"
+
+#~ msgid "button_show_blocked_roles"
+#~ msgstr "Zeigen"
+
+#~ msgid "heading_login_success"
+#~ msgstr "Login erfolgreich"
+
+#~ msgid "label_inherited_blocked_role"
+#~ msgstr "durch Vererbung blockierte Rolle"
+
+#~ msgid "legend_local_roles_hide_blocked_roles"
+#~ msgstr "Sie können blockierte Rollen ausblenden"
+
+#~ msgid "legend_local_roles_inherited_blocked_role"
+#~ msgstr ""
+#~ "diese Farbe bedeutet das die entsprechenden Rollen in übergeordneteten "
+#~ "Foldern gesetzt wurden und blockiert sind"
+
+#~ msgid "legend_local_roles_show_blocked_roles"
+#~ msgstr "Sie können auch blockierte Rollen anzeigen:"

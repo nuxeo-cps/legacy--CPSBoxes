@@ -690,3 +690,92 @@ msgstr ""
 #: from ../skins/cps_boxes/contentbox_edit_form.pt
 msgid "time_yesterday"
 msgstr ""
+
+msgid "label_rss_export"
+msgstr "RSS"
+
+msgid "label_search"
+msgstr "Bilatu"
+
+msgid "label_slot"
+msgstr "Kokapena (Slot-a)"
+
+msgid "label_visible_in_subfolder"
+msgstr "Azpikarpetetan ere ikusgai"
+
+msgid "label_visible_only_in_subfolder"
+msgstr "Azpikarpetetan BAKARRIK ikusigai"
+
+msgid "box text body"
+msgstr "box text title"
+
+#    <block fill-slot="box_title" content="box/box/title">
+#          box text title
+#        </block>
+#    <block fill-slot="box_title" content="box/box/title">box text title</block>
+#    <block fill-slot="box_title" content="box/box/title">
+#           box text title
+#        </block>
+#    <block fill-slot="box_title" content="box/box/title">
+#           box text title
+#      </block>
+#    <block content="box/box/title">box text title</block>
+msgid "box text title"
+msgstr "Texto de título de la caja"
+
+msgid "box_search"
+msgstr "Bilatu"
+
+msgid "button_create_box"
+msgstr "Kutxa sortu"
+
+msgid "description_visible_box_from ${context_url}"
+msgstr "Hemendik behera ikusiko duzu: ${context_url}"
+
+msgid "heading_box_create_form"
+msgstr "Kutxa gehitu"
+
+msgid "heading_box_manage_form"
+msgstr "Manage boxes"
+
+msgid "label_collaborative_folder"
+msgstr "Nire lan-eremuak"
+
+msgid "label_folder_search"
+msgstr "Lan-eremu bat bilatu"
+
+msgid "legend_folder_no_search_result"
+msgstr "Emaitzarik ez."
+
+msgid "link_box_delete"
+msgstr "Ezabatu"
+
+msgid "link_box_edit"
+msgstr "Editatu"
+
+msgid "link_box_view"
+msgstr "Hobespenak ikusi"
+
+msgid "link_more"
+msgstr "Gehiago..."
+
+msgid "listingheader_action"
+msgstr "Ekintza"
+
+msgid "listingheader_location"
+msgstr "Sorrera-lekua"
+
+msgid "listingheader_order"
+msgstr "Hurrenkera"
+
+msgid "listingheader_title"
+msgstr "Izenburua"
+
+msgid "listingheader_type"
+msgstr "Mota"
+
+msgid "label_user_fullname"
+msgstr "Izen-abizenak"
+
+msgid "legend_local_roles_assigned_users"
+msgstr "These users currently have local roles assigned in this folder:"
