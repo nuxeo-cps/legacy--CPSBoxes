@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CPSBoxes-en\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-03 15:32default\n"
+"POT-Creation-Date: 2006-01-03 15:43default\n"
 "PO-Revision-Date: 2005-02-09 10:17+0100\n"
 "Last-Translator: ZIADE <tziade@nuxeo.com>\n"
 "Language-Team: en <>\n"
@@ -627,87 +627,3 @@ msgstr "A default render box."
 
 msgid "button_text_editor_popup"
 msgstr "Text Editor..."
-
-#, fuzzy
-#~ msgid "Portal type's title"
-#~ msgstr "box text title"
-
-#, fuzzy
-#~ msgid "button_change"
-#~ msgstr "Create box"
-
-#, fuzzy
-#~ msgid "button_ok"
-#~ msgstr "Create box"
-
-#, fuzzy
-#~ msgid "button_search"
-#~ msgstr "Search"
-
-#, fuzzy
-#~ msgid "label_all"
-#~ msgstr "Slot"
-
-#, fuzzy
-#~ msgid "label_choose"
-#~ msgstr "Close"
-
-#, fuzzy
-#~ msgid "label_display"
-#~ msgstr "Display hierarchy's root"
-
-#, fuzzy
-#~ msgid "label_file_change"
-#~ msgstr "Search a workspace"
-
-#, fuzzy
-#~ msgid "label_file_delete"
-#~ msgstr "Flash File"
-
-#, fuzzy
-#~ msgid "label_file_keep"
-#~ msgstr "Search a workspace"
-
-#, fuzzy
-#~ msgid "label_guest"
-#~ msgstr "Slot"
-
-#, fuzzy
-#~ msgid "label_image"
-#~ msgstr "Image link"
-
-#, fuzzy
-#~ msgid "label_language"
-#~ msgstr "Display folder managers"
-
-#, fuzzy
-#~ msgid "label_search_description"
-#~ msgstr "Display folder description"
-
-#, fuzzy
-#~ msgid "label_search_full_text"
-#~ msgstr "Search"
-
-#, fuzzy
-#~ msgid "label_search_modified_since"
-#~ msgstr "Search"
-
-#, fuzzy
-#~ msgid "label_search_portal_type"
-#~ msgstr "Search"
-
-#, fuzzy
-#~ msgid "label_search_status"
-#~ msgstr "Search"
-
-#, fuzzy
-#~ msgid "label_search_title"
-#~ msgstr "Search"
-
-#, fuzzy
-#~ msgid "label_text_to_search"
-#~ msgstr "Search"
-
-#, fuzzy
-#~ msgid "label_title"
-#~ msgstr "Type"

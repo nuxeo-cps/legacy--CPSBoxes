@@ -663,24 +663,3 @@ msgstr ""
 #: from ../skins/cps_boxes/contentbox_edit_form.pt
 msgid "time_yesterday"
 msgstr ""
-
-msgid "A test box"
-msgstr "Boaty andrana"
-
-msgid "box_closed_boxes"
-msgstr "Boaty mihidy&nbsp;:"
-
-msgid "description_up_to ${up_id}"
-msgstr "Mankany amin'ny  ${up_id}"
-
-msgid "label_accesskey_title"
-msgstr ""
-"Ireo bokotra tsindrina mba hanafainganana ny fivezivezena (Les raccourcis "
-"clavier)"
-
-msgid "description_login_success"
-msgstr "Tongasoa. Tafiditra soa aman-tsara ato amin'ny tranonkala ianao"
-
-msgid "heading_login_success"
-msgstr "Tafita ny fanamarinana"
-

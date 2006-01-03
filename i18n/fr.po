@@ -735,8 +735,7 @@ msgstr "Boîte d'image"
 
 msgid "portal_type_ImageBox_description"
 msgstr ""
-"Boîte générique avec une image&nbsp;: décoration, habillage de "
-"répertoire..."
+"Boîte générique avec une image&nbsp;: décoration, habillage de répertoire..."
 
 msgid "portal_type_RSSBox_title"
 msgstr "Boîte RSS"
@@ -838,8 +837,7 @@ msgstr "La boîte d'actions sous forme de menu à onglets."
 
 msgid "description_nuxeo_actionbox_header"
 msgstr ""
-"Une liste d'actions simple utilisée pour les actions en en-tête de la "
-"page."
+"Une liste d'actions simple utilisée pour les actions en en-tête de la page."
 
 msgid "description_nuxeo_imagebox_default"
 msgstr "Une boîte avec une image."

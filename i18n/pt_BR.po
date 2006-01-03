@@ -45,9 +45,8 @@ msgstr "Você pode ocultar papéis bloqueados:"
 
 msgid "legend_local_roles_inherited_blocked_role"
 msgstr ""
-"esta cor significa que os papéis correspondentes estão definidos nas "
-"pastas acima (pais) e estão bloqueados."
+"esta cor significa que os papéis correspondentes estão definidos nas pastas "
+"acima (pais) e estão bloqueados."
 
 msgid "legend_local_roles_show_blocked_roles"
 msgstr "Você pode mostrar os papéis bloqueados:"
-

@@ -664,21 +664,3 @@ msgstr ""
 #: from ../skins/cps_boxes/contentbox_edit_form.pt
 msgid "time_yesterday"
 msgstr ""
-
-msgid "A test box"
-msgstr "Een testbox"
-
-msgid "box_closed_boxes"
-msgstr "Gesloten boxes&nbsp;:"
-
-msgid "description_up_to ${up_id}"
-msgstr "tot ${up_id}"
-
-msgid "label_accesskey_title"
-msgstr "Keyboard shortcuts or accesskeys"
-
-msgid "description_login_success"
-msgstr "Welkom. U werd succesvol op het portaal geregistreerd."
-
-msgid "heading_login_success"
-msgstr "Succesvolle registratie"

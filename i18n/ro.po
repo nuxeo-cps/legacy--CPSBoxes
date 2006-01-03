@@ -666,18 +666,6 @@ msgstr ""
 msgid "time_yesterday"
 msgstr ""
 
-msgid "A test box"
-msgstr "O casuta de test"
-
-msgid "box_closed_boxes"
-msgstr "Box-uri inchise: "
-
-msgid "description_up_to ${up_id}"
-msgstr "Pana la ${up_id}"
-
-msgid "label_accesskey_title"
-msgstr "Taste rapide"
-
 msgid "description_login_success"
 msgstr "Bine ai venit. Ai fost autentificat."
 
@@ -692,9 +680,7 @@ msgstr "Poti ascunde rolurile blocate:"
 
 msgid "legend_local_roles_inherited_blocked_role"
 msgstr ""
-"aceasta culoare marcheaza rolurile setate in directoarele parinte si "
-"blocate"
+"aceasta culoare marcheaza rolurile setate in directoarele parinte si blocate"
 
 msgid "legend_local_roles_show_blocked_roles"
 msgstr "Arata locurile blocate:"
-

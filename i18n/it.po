@@ -666,12 +666,6 @@ msgstr ""
 msgid "time_yesterday"
 msgstr ""
 
-msgid "box_closed_boxes"
-msgstr "Contenitori chiusi:&nbsp;"
-
-msgid "description_up_to ${up_id}"
-msgstr "Ritorna a: ${up_id}"
-
 msgid "label_accesskey_title"
 msgstr "Les raccourcis clavier ou accesskeys"
 
@@ -695,9 +689,7 @@ msgstr "Vous pouvez cacher les rôles bloqués :"
 
 msgid "legend_local_roles_inherited_blocked_role"
 msgstr ""
-"cette couleur signifie que les rôles correspondants sont hérités et "
-"bloqués."
+"cette couleur signifie que les rôles correspondants sont hérités et bloqués."
 
 msgid "legend_local_roles_show_blocked_roles"
 msgstr "Vous pouvez cacher les rôles bloqués :"
-
