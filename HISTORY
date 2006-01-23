@@ -1,4 +1,24 @@
 *******************************************
+** CPSBoxes V0.3.0 [R1 build 2006/01/23-17:26 by fermigier]
+** SVN URL: https://svn.nuxeo.org/pub/CPSBoxes/trunk Revision: 31976
+Requires:
+~~~~~~~~~
+-
+New features:
+~~~~~~~~~~~~~
+-
+Bug fixes:
+~~~~~~~~~~
+- #1143 added RSS box from CPSRSS
+- box types were not getting installed
+- Fixed #770: Remove in cpsdefault.css.dtml all the CSS directives pertaining to
+  CPSBoxes and put them in a cpsboxes.css.dtml file.
+New internal features:
+~~~~~~~~~~~~~~~~~~~~~~
+- ContentBox use the new CPSDefault.utils getFolderContents/filterContents
+- CPS css_slot was renamed style_slot to comply with later CMF/Zope 3 standard.
+
+*******************************************
 ** CPSBoxes V0.2.3 [R1 build 2005/11/07-15:09 by fguillaume]
 ** SVN URL: https://svn.nuxeo.org/pub/CPSBoxes/trunk Revision: 29055
 Requires:
