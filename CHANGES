@@ -6,8 +6,9 @@ New features
 -
 Bug fixes
 ~~~~~~~~~
-- Moved from CPSDefault to CPSBoxes since it is not used anymore in CPSDefault
-  which relies on CPSPortlets for RSS-like exports.
+- Fixed the exportAtomContentBox script so that it validates with
+  http://www.validome.org/.
 New internal features
 ~~~~~~~~~~~~~~~~~~~~~
-- 
+- Moved from CPSDefault to CPSBoxes since it is not used anymore in CPSDefault
+  which relies on CPSPortlets for RSS-like exports.

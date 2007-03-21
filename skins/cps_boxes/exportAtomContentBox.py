@@ -16,15 +16,18 @@ try:
 except KeyError:
     return "ERROR: Box not found"
 
+default_language = context.translation_service.getDefaultLanguage()
+
 # get the items
 ret = box.getContents(context)
 items = ret[0]
 
 atom_feed = r"""<?xml version="1.0" encoding="ISO-8859-15"?>
 <?xml-stylesheet href="%(css_url)s" type="text/css"?>
-<feed version="0.3" xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<feed version="0.3" xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xml:lang="%(feed_lang)s">
   <title mode="escaped" type="text/html">%(feed_title)s</title>
-  <tagline type="text/plain">%(feed_tagline)s</tagline>
+  <tagline mode="escaped" type="text/plain">%(feed_tagline)s</tagline>
   <link rel="alternate" type="text/html" href="%(feed_link)s" />
   <id>%(feed_id)s</id>
   <generator url="%(generator_url)s" version="%(generator_version)s">CPS</generator>
@@ -46,7 +49,7 @@ atom_entry = r"""
       <name>%(entry_author)s</name>
     </author>
     %(entry_contributors)s
-    <summary xml:lang="%(entry_lang)s">
+    <summary mode="escaped" xml:lang="%(entry_lang)s">
       %(summary)s
     </summary>
   </entry>
@@ -122,6 +125,7 @@ except AttributeError:
     generator_version = 'unknown'
 
 text = atom_feed % {'css_url': base_url + 'atom.css',
+                    'feed_lang' : default_language,
                     'feed_title' : escape(feed_title),
                     'feed_tagline' : 'ATOM feed',
                     'feed_link' : feed_link,
@@ -133,7 +137,7 @@ text = atom_feed % {'css_url': base_url + 'atom.css',
                     }
 
 if REQUEST is not None:
-   REQUEST.RESPONSE.setHeader('Content-Type', 'application/xml; charset=ISO-8859-15')
+   REQUEST.RESPONSE.setHeader('Content-Type', 'application/atom+xml; charset=ISO-8859-15')
    # FIXME: Why no-cache here ? We need something more sensible since
    # syndication generates lots of traffic.
    REQUEST.RESPONSE.setHeader('Cache-Control', 'no-cache')
