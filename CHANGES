@@ -6,7 +6,8 @@ New features
 -
 Bug fixes
 ~~~~~~~~~
--
+- Moved from CPSDefault to CPSBoxes since it is not used anymore in CPSDefault
+  which relies on CPSPortlets for RSS-like exports.
 New internal features
 ~~~~~~~~~~~~~~~~~~~~~
 - 
