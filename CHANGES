@@ -6,6 +6,7 @@ New features
 -
 Bug fixes
 ~~~~~~~~~
+- Better dates in the XML exports (RSS and ATOM).
 - Fixed the exportAtomContentBox script so that it validates with
   http://www.validome.org/.
 New internal features

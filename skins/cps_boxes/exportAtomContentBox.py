@@ -43,8 +43,8 @@ atom_entry = r"""
     <title mode="escaped" type="text/html">%(entry_title)s</title>
     <id>%(entry_id)s</id>
     <link rel="alternate" type="text/html" href="%(entry_link)s" />
-    <issued>%(entry_issued)s</issued>
     <modified>%(entry_modified)s</modified>
+    <created>%(entry_created)s</created>
     <author>
       <name>%(entry_author)s</name>
     </author>
@@ -60,7 +60,7 @@ entry_contributor =r"""<contributor>
     </contributor>
 """
 
-def construct_id(permalink, datetime):
+def construct_id(permalink, datetime_str):
     """<link rel="alternate"> is always the permalink of the entry
     http://diveintomark.org/archives/2004/05/28/howto-atom-id - article
     about constructing id
@@ -69,7 +69,7 @@ def construct_id(permalink, datetime):
     m = re.search(urlregexp, permalink)
     if m:
         location, port, path = m.groups()[1:]
-        uid = 'tag:' + location + ',' + datetime.strftime('%Y-%m-%d') + ':' + path
+        uid = 'tag:' + location + ',' + datetime_str + ':' + path
         return uid
     # problems parsing url, so permalink will be id
     return permalink
@@ -82,12 +82,12 @@ for item in items:
     doc = info['doc']
     entry_title = info.get('title', '')
     entry_link = info.get('url')
-    # XXX: issued == doc.created()? or issued it's time when it was published?
-    entry_issued = context.getDateStr(doc.created(), fmt='iso8601_long')
     entry_modified = context.getDateStr(info.get('time'), fmt='iso8601_long')
+    # The entry_created information is not really useful
+    entry_created = context.getDateStr(doc.created(), fmt='iso8601_long')
     entry_author = info.get('creator')
     entry_lang = info.get('language')
-    entry_id = construct_id(entry_link, doc.created())
+    entry_id = construct_id(entry_link, entry_created)
 
     entry_contributors = ''
     for contributor in doc.Contributors():
@@ -105,8 +105,8 @@ for item in items:
     body_text += atom_entry % {'entry_id' : entry_id,
                                'entry_title' : escape(entry_title),
                                'entry_link' : entry_link,
-                               'entry_issued' : entry_issued,
                                'entry_modified' : entry_modified,
+                               'entry_created' : entry_created,
                                'entry_author' : entry_author,
                                'entry_lang' : entry_lang,
                                'entry_contributors' : entry_contributors,
@@ -116,8 +116,9 @@ for item in items:
 info = context.getContentInfo(context, level=1)
 feed_title = info.get('title', '')
 feed_link = info.get('url')
-feed_id = construct_id(feed_link, context.created())
-feed_modified = context.getDateStr(context.created(), fmt='iso8601_long')
+context_created_str = context.getDateStr(context.created(), fmt='iso8601_long')
+feed_id = construct_id(feed_link, context_created_str)
+feed_modified = context_created_str
 generator_url = 'http://nuxeo.com'
 try:
     generator_version = '.'.join([str(v) for v in context.cps_version[1:]])

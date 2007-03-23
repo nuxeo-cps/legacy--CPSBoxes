@@ -77,7 +77,7 @@ for item in items:
     info = context.getContentInfo(item, level=1)
     url = info.get('url')
     header_text += rss_item_li % {'item_id': url}
-    item_date = context.getDateStr(info.get('time'), fmt='iso8601')
+    item_date = context.getDateStr(info.get('time'), fmt='iso8601_long')
     dc_text = ''
     for key in dc_keys:
         if key == 'date':
