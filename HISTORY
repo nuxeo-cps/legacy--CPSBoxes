@@ -1,4 +1,27 @@
 ===========================================================
+Package: CPSBoxes 0.5.0
+===========================================================
+First release built by: madarche at: 2007-04-06T17:33:24
+SVN Tag: https://svn.nuxeo.org/pub/CPS3/legacy/CPSBoxes/tags/0.5.0
+Build from: https://svn.nuxeo.org/pub/CPS3/legacy/CPSBoxes/trunk@51497
+
+Requires
+~~~~~~~~
+-
+New features
+~~~~~~~~~~~~
+-
+Bug fixes
+~~~~~~~~~
+- Better dates in the XML exports (RSS and ATOM).
+- Fixed the exportAtomContentBox script so that it validates with
+  http://www.validome.org/.
+New internal features
+~~~~~~~~~~~~~~~~~~~~~
+- Moved from CPSDefault to CPSBoxes since it is not used anymore in CPSDefault
+  which relies on CPSPortlets for RSS-like exports.
+
+===========================================================
 Package: CPSBoxes 0.4.0
 ===========================================================
 First release built by: madarche at: 2006-12-04T15:52:32
